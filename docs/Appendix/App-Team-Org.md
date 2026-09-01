@@ -36,14 +36,14 @@ _**Appendix Table 2**: Weekly Schedule_
 
 | Time | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
 | :------: | :----: | :----: | :----: | :----: | :----: | :----: | :-----: |
-| 8:00 AM | W, K, J, I | W, K, J, I | W, K, J |  | M | K | K |
+| 8:00 AM | W, K, J, I | W, K, J, I | W, K, J | K | M | K | K |
 | 9:00 AM | K | F | M | K | M | K | K |
 | 10:00 AM | K | B | M | K | M | K | K |
 | 11:00 AM | K | B | M | K | M | K | K |
-| 12:00 PM | Z | B, Z | M | K | M | K | K |
-| 1:00 PM | Z, F |  | M | K | M | K | K |
-| 2:00 PM | Z, F | K | M | K | M | K | K |
-| 3:00 PM | Z | K | M | K | M | K | K |
+| 12:00 PM | K |K | M | K | M | K | K |
+| 1:00 PM | K | K | M | K | M | K | K |
+| 2:00 PM | K | K | M | K | M | K | K |
+| 3:00 PM | K | K | M | K | M | K | K |
 | 4:00 PM | K | K | M | K | M | K | K |
 | 5:00 PM | K | K | M | K | M | K | K |
 | 6:00 PM | K | K | M | K | M | K | K |
