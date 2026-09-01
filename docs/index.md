@@ -8,10 +8,10 @@ tags:
 <font size="8">Project PS CV<br>
 <font size="5">Team 105<br>
 **Submission: month, DD, YYYY**<br>
-Fall and 2026<br>
+Fall 2026<br>
 <font size="4">Arizona State University<br>
 **EGR 304**<br>
-Dr. Vivek Thangavelu<br>
+Professor: Dr. Vivek Thangavelu<br>
   
 
 </center>
@@ -27,7 +27,7 @@ Dr. Vivek Thangavelu<br>
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
 | Name #1                | [JohnDoe.GitHub](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/) |
-| Name #2                | link |
+| Khun Nyeinn Pyayt Oo   | [link](https://wanderer-annoy.github.io/khunoo_RAS304_F26/) |
 | Name #3                | link |
 | Name #4                | link |
 | Name #5                | link |
