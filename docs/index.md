@@ -26,7 +26,7 @@ Professor: Dr. Vivek Thangavelu<br>
 
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
-| [William Layja]        |(https://williamlayja.github.io/wlayja_RAS304_F26/) |
+| [William Layja]        |[link](https://williamlayja.github.io/wlayja_RAS304_F26/) |
 | Khun Nyeinn Pyayt Oo   | [link](https://wanderer-annoy.github.io/khunoo_RAS304_F26/) |
 | Name #3                | link |
 | Name #4                | link |
