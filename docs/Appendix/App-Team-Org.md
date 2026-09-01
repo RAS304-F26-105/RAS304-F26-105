@@ -15,14 +15,15 @@ _**Appendix Table 1**: Team Member Communication Modes_
 
 |Name                 | First Choice Communication | Second Choice Communication | Third Choice Communication |
 |---------------------|----------------------------|-----------------------------|----------------------------|
-|Member 1 |  ? | ? | ? |
-|Member 2 |  ? | ? | ? |
-|Member 3 |  ? | ? | ? |
-|Member 4 |  ? | ? | ? |
+|William |  Group Chat | Email | Discord |
+|Khun |  Email | Email | Discord |
+|Mohammed |  Group Chat | Email | Discord |
+|Jose |  Group Chat | Email | Discord |
+|Isaiah | Group Chat | Email | Discord |
 
 ### Main Method for Group Communication
 
-Based on the information provided on in the "Team Member Communication Modes," the group primary method of communication is ......
+Based on the information provided on in the "Team Member Communication Modes," the group primary method of communication is group text chat.
  
 ## Communication Procedures
 
@@ -35,7 +36,7 @@ _**Appendix Table 2**: Weekly Schedule_
 
 | Time | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
 | :------: | :----: | :----: | :----: | :----: | :----: | :----: | :-----: |
-| 8:00 AM | - | - | M | - | M | - | - |
+| 8:00 AM | W, K, J, I | W, K, J, I | W, K, J |  | M | - | - |
 | 9:00 AM | - | F | M | - | M | - | - |
 | 10:00 AM | - | B | M | - | M | - | - |
 | 11:00 AM | - | B | M | - | M | - | - |
@@ -54,10 +55,11 @@ _**Table Legend for Appendix Table 2**_
 
 | Name | Abbreviation |
 | ----- | :------: |
-| Bill | B |
-| Mary | M |
-| Zane | Z |
-| Felicity | F |
+| William | W |
+| Khun | K |
+| Mohammed | M |
+| Jose | J |
+| Isaiah | I |
 
 
 ## Meeting Coordination
