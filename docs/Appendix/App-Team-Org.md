@@ -73,10 +73,10 @@ _**Appendix Table 2**: Project Roles and Duties_
 
 | **Role**          | **Duties**                                                                                                                                |
 | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
-| Meeting leader    | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting                                        |
-| Meeting recorder  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
-| Assignment leader | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
-| Project monitor   | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
+| Meeting leader (William Layja)    | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting                                        |
+| Meeting recorder (Mahommed Al Rasbi) | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
+| Assignment leader(Jose Baldenegro) | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
+| Project monitor (Khun Oo)   | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
 
 ## Conflict Recognition & Resolution
 
