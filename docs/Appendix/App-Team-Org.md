@@ -5,10 +5,6 @@ tags:
 - tag2
 ---
 
-## Team Goals
-
-List at least five shared goals that reflect a successful product with regard to EGR3X4. Focus on team / product goals that are deeper than "getting an A".
-
 ## Communication Channels
 
 _**Appendix Table 1**: Team Member Communication Modes_
