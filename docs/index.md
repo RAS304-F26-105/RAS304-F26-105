@@ -1,13 +1,13 @@
 ---
-title: Home
+title: Team Introduction
 tags:
 - tag1
 - tag2
 ---
 <center>
-<font size="8">Project PS CV<br>
+<font size="8">Project Phoenix Phorse<br>
 <font size="5">Team 105<br>
-**Submission: month, DD, YYYY**<br>
+**Submission: 08, 31, 2026**<br>
 Fall 2026<br>
 <font size="4">Arizona State University<br>
 **EGR 304**<br>
