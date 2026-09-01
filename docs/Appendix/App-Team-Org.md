@@ -36,20 +36,20 @@ _**Appendix Table 2**: Weekly Schedule_
 
 | Time | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
 | :------: | :----: | :----: | :----: | :----: | :----: | :----: | :-----: |
-| 8:00 AM | W, K, J, I | W, K, J, I | W, K, J | K | M | K | K |
-| 9:00 AM | K | F | M | K | M | K | K |
-| 10:00 AM | K | K | M | K | M | K | K |
-| 11:00 AM | K | K | M | K | M | K | K |
-| 12:00 PM | K |K | M | K | M | K | K |
-| 1:00 PM | K | K | M | K | M | K | K |
-| 2:00 PM | K | K | M | K | M | K | K |
-| 3:00 PM | K | K | M | K | M | K | K |
-| 4:00 PM | K | K | M | K | M | K | K |
-| 5:00 PM | K | K | M | K | M | K | K |
-| 6:00 PM | K | K | M | K | M | K | K |
-| 7:00 PM | K | K | M | K | M | K | K |
-| 8:00 PM | K | K | M | K | M | K | K |
-| 9:00 PM | K | K | M | K | M | K | K |
+| 8:00 AM | W, K, J, I | W, K, J, I | W, K, J | K | M | W, K, J, I | K |
+| 9:00 AM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 10:00 AM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 11:00 AM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 12:00 PM | K |W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 1:00 PM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 2:00 PM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 3:00 PM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 4:00 PM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 5:00 PM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 6:00 PM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 7:00 PM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 8:00 PM | K | W, K, J, I | M | W, K, J, I | M | W, K, J, I | K |
+| 9:00 PM | K | W, K, J, I | M | W, K, J, IK | M | W, K, J, I | K |
 
 _**Table Legend for Appendix Table 2**_
 
