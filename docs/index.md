@@ -5,13 +5,13 @@ tags:
 - tag2
 ---
 <center>
-<font size="8">Project Name<br>
-<font size="5">Team ###<br>
+<font size="8">Project PS CV<br>
+<font size="5">Team 105<br>
 **Submission: month, DD, YYYY**<br>
-Semester and Year<br>
+Fall and 2026<br>
 <font size="4">Arizona State University<br>
 **EGR 304**<br>
-Professor Name<br>
+Dr. Vivek Thangavelu<br>
   
 
 </center>
@@ -30,3 +30,4 @@ Professor Name<br>
 | Name #2                | link |
 | Name #3                | link |
 | Name #4                | link |
+| Name #5                | link |
