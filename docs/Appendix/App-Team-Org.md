@@ -12,7 +12,7 @@ _**Appendix Table 1**: Team Member Communication Modes_
 |Name                 | First Choice Communication | Second Choice Communication | Third Choice Communication |
 |---------------------|----------------------------|-----------------------------|----------------------------|
 |William |  Group Chat | Email | Discord |
-|Khun |  Email | Email | Discord |
+|Khun |  Email | Group Chat | Discord |
 |Mohammed |  Group Chat | Email | Discord |
 |Jose |  Group Chat | Email | Discord |
 |Isaiah | Group Chat | Email | Discord |
