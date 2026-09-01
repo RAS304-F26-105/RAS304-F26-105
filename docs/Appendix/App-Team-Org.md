@@ -64,10 +64,9 @@ _**Table Legend for Appendix Table 2**_
 
 ## Meeting Coordination
 
-1. What method will you use to remind yourselves of meetings (a shared calendar?)
-1. How will your team go about changing or adding meeting times?
-1. What's the preferred format for meetings (face-to-face or virtually)?
-1. Are there any other procedures that your team feels are necessary?
+1. Check the shared calendar for meeting times.
+1. Message in the group chat if any changes are needed.
+1. Meetings are normally unless specified.
 
 ## Roles & Responsibilities
 
@@ -82,10 +81,10 @@ _**Appendix Table 2**: Project Roles and Duties_
 
 ## Conflict Recognition & Resolution
 
-Need to add content!!
+Any problem with groups members should be handled at the lowest level. If conflict cannot be settled a meeting with the team leader will be held. At the highest level conflict will be brought up with the professor.
 
 
 ## Signatures
 
-Need to add content!!
+WL, KU, MA, JB, IC
 
