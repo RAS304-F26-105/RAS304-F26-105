@@ -28,6 +28,6 @@ Professor: Dr. Vivek Thangavelu<br>
 | ---------------------- | -----------------------|
 | [William Layja]        |[link](https://williamlayja.github.io/wlayja_RAS304_F26/) |
 | Khun Nyeinn Pyayt Oo   | [link](https://wanderer-annoy.github.io/khunoo_RAS304_F26/) |
-| Name #3                | link |
-| Name #4                | link |
+| Mohammed Al Rasbi      | [link](https://rasbi-m.github.io/malrasbi_RAS304_fall26/) |
+| Jose Baldenegro        | [link](https://github.com/jabalden-max/JaBalden_RAS304_F26.git) |
 | Name #5                | link |
