@@ -27,8 +27,8 @@ Based on the information provided on in the "Team Member Communication Modes," t
  
 ## Communication Procedures
 
-1. How will your team communicate?
-2. How will you handle instructor correspondence? Who is responsible? How will that be communicated with/back to the group?
+1. The team communicates through group text chat to discuses meeting and how the project will be handled.
+2. The team leader is in charge of handling instructor correspondence, and dividing work if needed.
 
 ## Meeting Schedule
 
@@ -66,7 +66,7 @@ _**Table Legend for Appendix Table 2**_
 
 1. Check the shared calendar for meeting times.
 1. Message in the group chat if any changes are needed.
-1. Meetings are normally unless specified.
+1. Meetings are normally in person unless specified.
 
 ## Roles & Responsibilities
 
