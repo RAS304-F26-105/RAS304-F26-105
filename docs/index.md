@@ -5,7 +5,7 @@ tags:
 - tag2
 ---
 <center>
-<font size="8">Project PS CV<br>
+<font size="8">Project Phoenix Phorse<br>
 <font size="5">Team 105<br>
 **Submission: month, DD, YYYY**<br>
 Fall 2026<br>
