@@ -27,7 +27,7 @@ How to use this template
 **Product Link:** https://www.amazon.com/Intel-RealSense-LiDAR-Camera-L515/dp/B0855LWPLN
 **Spec Sheet:** https://www.intel.com/content/www/us/en/products/sku/201775/intel-realsense-lidar-camera-l515/specifications.html
 
-![Intel RealSense LiDAR Camera L515](image1.png)
+![Intel RealSense LiDAR Camera L515](Intel_RealSense_LiDAR.jpg)
 
 * **Price:** $479.99
 * **Vendor:** Amazon
@@ -100,7 +100,7 @@ How to use this template
 
 **Product Link:** *(add link)*
 
-![Product image](image1.png)
+![Product image](Intel_RealSense_LiDAR.jpg)
 
 * **Price:** *(add price)*
 * **Vendor:** *(add vendor)*
