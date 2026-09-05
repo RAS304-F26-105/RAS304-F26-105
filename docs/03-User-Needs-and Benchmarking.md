@@ -44,6 +44,40 @@ title: User Needs and Benchmarking
 
 ### Search #2
 
+**Keywords:** "kid science kit robotics"
+
+**Search Results Link:** 
+
+### Selected Products
+
+#### 1. [Tinkering Labs Robotics Engineering Kit](https://www.amazon.com/Tinkering-Labs-Electric-Engineering-Experiments/dp/B01M5GJFQ1/) < (link to the product)
+
+![](image1.png)
+
+**(include a picture)**
+
+* Price: $
+
+* Vendor: 
+
+* Description: 
+
+##### Positive Comments
+
+| Voice of the Customer                                                                                                                                                                  | Restated Customer Need                                                              |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+|  | 1.  The kit is perceived as more than a toy (explicit)                              |
+|                                                                                                                                                                                        | 2.   |
+|                                                                                                                                                                                        | 3.                     |
+
+##### Negative Comments
+
+| Voice of the Customer                                                                                                                                                                                                                                                                                                                                                                                | Restated Customer Need                                  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+|  | 1.                         |
+|                                                                                                                                                                                                                                                                                                                                                                                                      | 2.   |
+|                                                                                                                                                                                                                                                                                                                                                                                                      | 3.            |
+
 (you don't have to perform multiple searches, but sometimes different keywords reveal slightly different results)
 
 **Keywords:** <list an alternative search you did, if applicable>
@@ -53,6 +87,42 @@ title: User Needs and Benchmarking
 ### Selected Products
 
 #### 3. Next Product goes here
+### Search #2
+
+**Keywords:** "kid science kit robotics"
+
+**Search Results Link:** 
+
+### Selected Products
+
+#### 1. [Tinkering Labs Robotics Engineering Kit](https://www.amazon.com/Tinkering-Labs-Electric-Engineering-Experiments/dp/B01M5GJFQ1/) < (link to the product)
+
+![](image1.png)
+
+**(include a picture)**
+
+* Price: $
+
+* Vendor: 
+
+* Description: 
+
+##### Positive Comments
+
+| Voice of the Customer                                                                                                                                                                  | Restated Customer Need                                                              |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+|  | 1.  The kit is perceived as more than a toy (explicit)                              |
+|                                                                                                                                                                                        | 2.   |
+|                                                                                                                                                                                        | 3.                     |
+
+##### Negative Comments
+
+| Voice of the Customer                                                                                                                                                                                                                                                                                                                                                                                | Restated Customer Need                                  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+|  | 1.                         |
+|                                                                                                                                                                                                                                                                                                                                                                                                      | 2.   |
+|                                                                                                                                                                                                                                                                                                                                                                                                      | 3.            |
+
 
 #### 4. Next Product goes here
 
