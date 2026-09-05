@@ -27,7 +27,7 @@ How to use this template
 **Product Link:** https://www.amazon.com/Intel-RealSense-LiDAR-Camera-L515/dp/B0855LWPLN
 **Spec Sheet:** https://www.intel.com/content/www/us/en/products/sku/201775/intel-realsense-lidar-camera-l515/specifications.html
 
-![Intel RealSense LiDAR Camera L515](Intel_RealSense_LiDAR.jpg)
+![Intel RealSense LiDAR Camera L515](images/Intel_RealSense_LiDAR.jpg)
 
 * **Price:** $479.99
 * **Vendor:** Amazon
@@ -63,7 +63,7 @@ How to use this template
 
 **Product Link:** https://www.amazon.com/DJI-Focus-Pro-LiDAR-Compatibility/dp/B0CV77J537
 
-![DJI Focus Pro LiDAR](image1.png)
+![DJI Focus Pro LiDAR](images/DJI_Focus_Pro_LiDAR.jpg)
 
 * **Price:** $699.00
 * **Vendor:** Amazon
