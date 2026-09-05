@@ -51,37 +51,37 @@ title: User Needs and Benchmarking
 
 ## Search #2
 
-**Keywords:** "kid science kit robotics"
+**Keywords:** "lidar"
 
-**Search Results Link:** *(add link)*
+**Search Results Link:** https://www.amazon.com/DJI-Focus-Pro-LiDAR-Compatibility/dp/B0CV77J537
 
 ### Selected Products
 
-#### 1. Tinkering Labs Robotics Engineering Kit
+#### 1. DJI Focus Pro LiDAR
 
-**Product Link:** https://www.amazon.com/Tinkering-Labs-Electric-Engineering-Experiments/dp/B01M5GJFQ1/
+**Product Link:** https://www.amazon.com/DJI-Focus-Pro-LiDAR-Compatibility/dp/B0CV77J537
 
-![Tinkering Labs Robotics Engineering Kit](image1.png)
+![DJI Focus Pro LiDAR](image1.png)
 
-* **Price:** *(add price)*
-* **Vendor:** *(add vendor)*
-* **Description:** *(add description)*
+* **Price:** $699.00
+* **Vendor:** Amazon
+* **Description:** This high-performance LiDAR system enhances autofocus capabilities up to 20 meters with a 30 Hz refresh rate, 70° FOV, and 76,800 ranging points, enabling faster subject tracking and autofocus for manual lenses.
 
 ##### Positive Comments
 
 | Voice of the Customer | Restated Customer Need |
 |---|---|
-| *(add quote)* | The kit is perceived as more than a toy — it should build real engineering understanding, not just entertain. |
-| *(add quote)* | *(restate need)* |
-| *(add quote)* | *(restate need)* |
+| "Bought one after seeing Justin Potter's videos with the Red Komodo... buyers should know it only works with the RS4 Pro. Once configured the right way, it competently performs the work of a focus puller. The tracking function is very good but not perfect, as it's able to discern between human subjects, but struggles with objects... Absolutely chews up the battery, especially with auto tracking." | The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-focus cameras, while accepting a battery-life tradeoff for a smoother gimbal workflow. |
+| "DJI great product unfortunately not good support if that's what you need" | The buyer appreciates DJI's hardware quality but needs customer support that matches that standard. |
+| *(add a third quote)* | *(restate need)* |
 
 ##### Negative Comments
 
 | Voice of the Customer | Restated Customer Need |
 |---|---|
-| *(add quote)* | *(restate need)* |
-| *(add quote)* | *(restate need)* |
-| *(add quote)* | *(restate need)* |
+| "What virtually all reviews on Youtube conceal: ActiveTrack... only works with the Lidar Pro on people's faces and heads - the sensor does not recognize anything else... Lidar and RavenEye DO NOT work together and cannot be connected to the gimbal together... only when you spend another 2300 euros on DJI Transmission can you also select the track range of the lidar on a larger monitor." | The buyer needs a LiDAR tracking system that reliably supports non-human subjects, integrates with image-transmission tools, and offers accessible on-set screen controls without requiring costly add-on equipment. |
+| "With the 14mm lens, subject tracking is quite OK - but the often-discussed focusing on the object even before it gets into the camera's image section doesn't work at 14mm, as the lidar calculates 35mm... Using the lidar with focal lengths longer than 50mm is hardly recommended anymore - unless you have forever time on set to turn the settings over and over again until it fits." | The buyer needs a LiDAR focusing system that maintains reliable, customizable tracking across a range of focal lengths and fast subject movement, without constant on-set recalibration. |
+| *(add a third quote)* | *(restate need)* |
 
 #### 2. *(next product goes here)*
 
