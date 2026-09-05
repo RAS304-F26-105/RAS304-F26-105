@@ -127,7 +127,7 @@ How to use this template
 ## Organized Need Statements
 
 ### First Placement
-*List every restated need statement pulled from the searches above, in the order you captured them, with no de-duplication yet.*
+<!-- *List every restated need statement pulled from the searches above, in the order you captured them, with no de-duplication yet.* -->
 
 ### Grouped with Categories
 <!--*Cluster the needs from "First Placement" into themes (e.g., Reliability, Cost/Value, Compatibility, Ease of Use, Durability, Support/Service).*  -->
