@@ -4,11 +4,13 @@ title: User Needs and Benchmarking
 
 # Voice of the Customer Benchmarking
 
-> **How to use this template**
-> 1. Duplicate the "Search #" block below for each keyword search you run.
-> 2. Duplicate the "Selected Product" sub-block for each product you pull from that search.
-> 3. Pull 2–3 positive and 2–3 negative verbatim customer quotes per product, then restate each as a clear, actionable customer need.
-> 4. Once all searches are done, move the best need statements into the **Organized Need Statements** section, then into the final **Compiled List of User Needs**.
+<!--
+How to use this template
+1. Duplicate the "Search #" block below for each keyword search you run.
+2. Duplicate the "Selected Product" sub-block for each product you pull from that search.
+3. Pull 2–3 positive and 2–3 negative verbatim customer quotes per product, then restate each as a clear, actionable customer need.
+4. Once all searches are done, move the best need statements into the Organized Need Statements section, then into the final Compiled List of User Needs.
+-->
 
 ---
 
@@ -83,7 +85,6 @@ title: User Needs and Benchmarking
 | "With the 14mm lens, subject tracking is quite OK - but the often-discussed focusing on the object even before it gets into the camera's image section doesn't work at 14mm, as the lidar calculates 35mm... Using the lidar with focal lengths longer than 50mm is hardly recommended anymore - unless you have forever time on set to turn the settings over and over again until it fits." | The buyer needs a LiDAR focusing system that maintains reliable, customizable tracking across a range of focal lengths and fast subject movement, without constant on-set recalibration. |
 | *(add a third quote)* | *(restate need)* |
 
-#### 2. *(next product goes here)*
 
 ---
 
