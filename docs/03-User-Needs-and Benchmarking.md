@@ -130,7 +130,7 @@ How to use this template
 *List every restated need statement pulled from the searches above, in the order you captured them, with no de-duplication yet.*
 
 ### Grouped with Categories
-*Cluster the needs from "First Placement" into themes (e.g., Reliability, Cost/Value, Compatibility, Ease of Use, Durability, Support/Service).*
+<!--*Cluster the needs from "First Placement" into themes (e.g., Reliability, Cost/Value, Compatibility, Ease of Use, Durability, Support/Service).*  -->
 
 | Category | Need Statements |
 |---|---|
@@ -142,7 +142,7 @@ How to use this template
 | Support / Service | *(list)* |
 
 ### Ranked
-*Within each category, rank need statements by frequency of mention and severity of impact (e.g., High / Medium / Low).*
+<!-- *Within each category, rank need statements by frequency of mention and severity of impact (e.g., High / Medium / Low).* -->
 
 | Rank | Need Statement | Category | Frequency | Severity |
 |---|---|---|---|---|
@@ -153,7 +153,7 @@ How to use this template
 
 ## Compiled List of User Needs
 
-*Final, de-duplicated list of user needs in "The device/product will/is/can..." format, ordered by priority.*
+<!-- *Final, de-duplicated list of user needs in "The device/product will/is/can..." format, ordered by priority.*  -->
 
 1. The device will *(state need)*.
 2. The device is *(state need)*.
