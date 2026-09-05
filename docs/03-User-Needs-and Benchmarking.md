@@ -40,6 +40,9 @@ title: User Needs and Benchmarking
 |                                                                                                                                                                                                                                                                                                                                                                                                      | 2.  The moving parts of the kit are reinforced.(latent) |
 |                                                                                                                                                                                                                                                                                                                                                                                                      | 3.  The kit survives multiple uses (explicit)           |
 
+
+
+
 #### 2. Next Product goes here
 
 ### Search #2
@@ -78,16 +81,11 @@ title: User Needs and Benchmarking
 |                                                                                                                                                                                                                                                                                                                                                                                                      | 2.   |
 |                                                                                                                                                                                                                                                                                                                                                                                                      | 3.            |
 
-(you don't have to perform multiple searches, but sometimes different keywords reveal slightly different results)
 
-**Keywords:** <list an alternative search you did, if applicable>
 
-**Search Results Link:** <add your link here>
-
-### Selected Products
 
 #### 3. Next Product goes here
-### Search #2
+### Search #3
 
 **Keywords:** "kid science kit robotics"
 
@@ -124,9 +122,6 @@ title: User Needs and Benchmarking
 |                                                                                                                                                                                                                                                                                                                                                                                                      | 3.            |
 
 
-#### 4. Next Product goes here
-
-#### 5. Next Product goes here
 
 
 ## Organized Need Statements
