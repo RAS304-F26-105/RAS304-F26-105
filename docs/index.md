@@ -24,10 +24,10 @@ Professor: Dr. Vivek Thangavelu<br>
 
 ## Team Members Datasheet links
 
-| **Team Member**        |**Ind Datasheet Links** |
-| ---------------------- | -----------------------|
-| William Layja        |[link](https://williamlayja.github.io/wlayja_RAS304_F26/) |
-| Khun Nyeinn Pyayt Oo   | [link](https://wanderer-annoy.github.io/khunoo_RAS304_F26/) |
-| Mohammed Al Rasbi      | [link](https://rasbi-m.github.io/malrasbi_RAS304_fall26/) |
-| Jose Baldenegro        | [link](https://jabalden-max.github.io/JaBalden_RAS304_F26/) |
-| Isaiah Cruz            | [link](https://ras-embedded-systems.github.io/RAS304DataSheetTemplate/) |
+| **Team Member**        |**Ind Datasheet Links** | **Team Role**|
+| ---------------------- | -----------------------| -----------------------|
+| William Layja        |[link](https://williamlayja.github.io/wlayja_RAS304_F26/) | Team Leader |
+| Khun Nyeinn Pyayt Oo   | [link](https://wanderer-annoy.github.io/khunoo_RAS304_F26/) | ROle |
+| Mohammed Al Rasbi      | [link](https://rasbi-m.github.io/malrasbi_RAS304_fall26/) | Stakeholder |
+| Jose Baldenegro        | [link](https://jabalden-max.github.io/JaBalden_RAS304_F26/) | ROle |
+| Isaiah Cruz            | [link](https://ras-embedded-systems.github.io/RAS304DataSheetTemplate/) | ROle |
