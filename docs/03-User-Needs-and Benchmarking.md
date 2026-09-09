@@ -90,36 +90,36 @@ How to use this template
 
 ## Search #3
 
-**Keywords:** *(add keywords)*
+**Keywords:** *(Lidar Scanner)*
 
-**Search Results Link:** *(add link)*
+**Search Results Link:** *([https://a.co/d/02QBjiR3](https://a.co/d/01B1na20))*
 
 ### Selected Products
 
-#### 1. *(product name)*
+#### 1. *(WayPonDEV FHL-LD19 )*
 
-**Product Link:** *(add link)*
+**Product Link:** *([add link](https://a.co/d/01B1na20))*
 
 ![Product image](Intel_RealSense_LiDAR.jpg)
 
-* **Price:** *(add price)*
-* **Vendor:** *(add vendor)*
-* **Description:** *(add description)*
+* **Price:** *($79.00)*
+* **Vendor:** *(Amazon)*
+* **Description:** *(The WayPonDEV FHL‑LD19 is a compact 360° 2D LiDAR sensor featuring high‑speed DTOF sampling (8000 Hz) and up to 12 m range for accurate, real‑time environmental scanning. It offers configurable 5–13 Hz rotation, plug‑and‑play USB/serial connectivity, and ROS integration for robot navigation, obstacle avoidance, SLAM, and general mapping applications.)*
 
 ##### Positive Comments
 
 | Voice of the Customer | Restated Customer Need |
 |---|---|
-| *(add quote)* | *(restate need)* |
-| *(add quote)* | *(restate need)* |
-| *(add quote)* | *(restate need)* |
+| "I love the size of this FHL-LD19 lidar. This would be an awesome little lidar package if it worked out of the box with ROS2 SLAM package. It's small, has a decent scan rate and has decent distance. I'll have to dig deeper into the issues with SLAM and see if anyone has been able to modify the firmware. Overall, it's a neat little lidar package, unfortunately it just isn't usable with ROS2 for a robot as is." | The customer would liked that the product would have  ROS2 SLAM support. |
+| "Software was a bit hard to find but onces I found it it works as advertised and is the cheapest I been able to find." | The customer was satisfied with it's price but the the software is hard to use  |
+| "Small, light and very useful when integrating it into robotics" | The customer was pleased with the size of the product |
 
 ##### Negative Comments
 
 | Voice of the Customer | Restated Customer Need |
 |---|---|
-| *(add quote)* | *(restate need)* |
-| *(add quote)* | *(restate need)* |
+| "It doesn't work with the included USB cable. I'm using one of my own data cables, and now the lidar is working perfectly with Rpi 5." | The cable provide wasn't working and was defective and needed a working cable to use the product |
+| "The LD19 driver apparently calculates the number of readings in a scan in a non-conformal way and is out of spec with what the ROS2 SLAM Toolbox expects. The maintainer of SLAM toolbox has asked maintainers of LIDAR drivers to fix the calculation on their end, this is manufacturer won't respond." | Costumer ran into a bug and tried to get help from manufacturer and they didn't respond |
 | *(add quote)* | *(restate need)* |
 
 ---
