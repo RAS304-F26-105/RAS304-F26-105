@@ -100,7 +100,7 @@ How to use this template
 
 **Product Link:** *([https://a.co/d/02QBjiR3](https://a.co/d/01B1na20))*
 
-![WayPonDEV FHL-LD19](image/LidarProduct#3.jpg) 
+![WayPonDEV FHL-LD19](image/LIDar_WayDon_DD.jpg) 
 
 * **Price:** *($79.00)*
 * **Vendor:** *(Amazon)*
