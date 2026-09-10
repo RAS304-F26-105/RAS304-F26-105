@@ -63,7 +63,7 @@ How to use this template
 
 **Product Link:** https://www.amazon.com/DJI-Focus-Pro-LiDAR-Compatibility/dp/B0CV77J537
 
-![DJI Focus Pro LiDAR](LidarProduct#3.jpg)
+![DJI Focus Pro LiDAR](image/DJI_Focus_Pro_LiDAR.jpg)
 
 * **Price:** $699.00
 * **Vendor:** Amazon
