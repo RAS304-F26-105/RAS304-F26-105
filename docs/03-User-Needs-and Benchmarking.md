@@ -96,11 +96,11 @@ How to use this template
 
 ### Selected Products
 
-#### 1. *(WayPonDEV FHL-LD19 )*
+#### 1. *(WayPonDEV FHL-LD19)*
 
-**Product Link:** *([add link](https://a.co/d/01B1na20))*
+**Product Link:** *([https://a.co/d/02QBjiR3](https://a.co/d/01B1na20))*
 
-![Product image](Intel_RealSense_LiDAR.jpg)
+![WayPonDEV FHL-LD19](image/LidarProduct#3.jpg) 
 
 * **Price:** *($79.00)*
 * **Vendor:** *(Amazon)*
