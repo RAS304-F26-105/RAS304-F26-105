@@ -4,47 +4,48 @@ title: Product Requirements
 
 ## Project Objective
 
-This project aims to investigate and develop smart adaptive technologies, an improved user experience, better fit, improved product design, and product customization options for the next-generation AirPods. The target is to maintain global dominance in the wireless earphone market, drive up AirPod sales to 100 million+ units sold with a 60% global market share in 2021 and expand the user base more towards the luxury, professional, and fitness segments. We believe that adding smart interactions and adaptive audio filters alone will already expand our user base by 15%. With the new generation AirPods we aim to match at least the sound quality of our main competitor, the Sony WF-1000XM3, and include Active Noise Canceling that is also featured in Mifo, House of Marley, Bose, and Amazon Echo products. We will also obtain IPX4 sweat-resistant rating equal to Bose, House of Marley, and Amazon Echo earbuds, and aim to extend our range of colors, as seen in Urbanista and Jabra’s lifestyle products.
+This projects aims to research and develop a new innovated ways to improve accessibility to those who suffer from visual impairment. We aim to develop a device that allows users to be able to navigate their surroundings more effectively. We know that our surroundings change constantly, with people, animals, and objects coming and going. Not every area has accessibility structures to help, and crowded areas bring much challenge. Our product uses a hand held lidar to identify its surroundings telling its user of close obstacles. It is our aim that this product can help those navigate in areas that don't have accessibility options. 
 
 ## Stakeholders
 
-* **Target group** High-income upper-class professionals between the age of 20 and 45. Their personalities are determined and ambitious. The main benefits sought are recreation and self-expression.
-* **Target purchaser** Target group profile with special attention to Full Nest I and Full Nest II mothers.
-* **Customer service** Prefers easy-to-repair, recyclable product, and easy-to-fix complaints to fit with Apple’s intuitive user experience.
-* **Marketing & Sales division** Looks for unique selling points around the Apple Aspirer-Explorer lifestyle and user experience.
-* **Retailers** Prefer products that can withstand a wide range of storage conditions including variations in temperature, vibration, humidity, and atmospheric pressure, and have a strong and compact, theft, and vandalism-proof packaging.
+* **Target group:** People who suffer from vision impairment disorders. 
+* **Target purchaser:** People who need to travel busy, crowded areas.
+* **Customer service:** Prefers easy-to-repair, recyclable product, and easy-to-fix complaints.
+* **Marketing & Sales division:** Looks for unique selling points around common issues that affect navigation daily.
+* **Retailers:** Pharmacies, medical stores, retail stores.
 
 ## Use Cases
 
-### User Story #1: Jenna
+### User Story #1: Luke
 
-Jenna is a 33-year-old executive who regularly visits a bar for lunch to blow off some steam. The bar is often loud with people, but it is paramount that she can hold business conversations over the phone there. Then again, she does not want to miss out on the atmosphere and be able to hear the waiters as well. Her new Apple wireless earphones allow her to switch instantly between a mode where she can fully focus on the phone conversation and a mode where the phone call and environmental sound are seamlessly combined. They also allow her to rapidly adjust the volume on the earbuds themselves without having to take out her phone.
+Luke is a 10-year-old student who suffers from an inherited genetic eye disorder called retinitis pigmentosa, a disorder that causes light-sensitive cells to slowly break down causing progressive vision loss. Luke is accustomed to using his vision to navigate around his school, neighborhood, and his home city in Seattle. Luke is trying to adjust and finding new ways of navigating around with his now declining vision. Luke knows that areas he visits often don't have many accessibility features and wants to find a way to navigate.
 
-Jenna occasionally visits the bar in the evenings. She is a big fan of the L.A. Lakers, and whenever they play, she streams the live footage through her phone. Her new earbuds allow her to easily switch to hearing everything around her and streaming the match commentary without having to ever take the earbuds out.  She sometimes gets compliments on how stylish the earbuds look on her, and she wouldn’t want to miss out on hearing those either.
+### User Story #2: Mike
 
-### User Story #2
-
-...
+Mike is a 30-year-old executive who relies on public transportation to get around the city. Due to Mike suffering from visual impairment he uses the tactile lines on the ground of the subway to navigate around the subway and find his train. Unfortunately even with public accessibility structures it can be difficult to navigate to his train. People tend to congregate and leave their bags on the tactile lines. As Mike tries to overcome these obstacles he often runs into people who are ignorant of his disability that scold him for bumping into their bag, or for him to go around by going off the line he uses to navigate. These everyday challenges has Mike feeling that public accessibility structures just isn't enough.
 
 ## Aspects
 
-The new product design will be based on that of the AirPods with improvements based on the following requirements. The **P1 - P10** is the "code" to indicate the priority of the requirement, from low to high.
+The new product design will be based on handheld lidars and sonar with improvements based on the following requirements. The **P1 - P10** is the "code" to indicate the priority of the requirement, from low to high.
 
 1. **Producer Design**
-   * 1.1 The product shall be visually easy to distinguish from existing AirPods as well as main competitors Sony WF-1000XM3, Jabra Elite, Amazon Echo Buds, Samsung Galaxy Buds, and Bose SoundSport Free, and Urbanista Stockholm. (P10)
-   * 1.1 The product shall be easy to recognize as an Apple product without needing a logo on its exterior. (P10)
-   * 1.2. The product shall avoid styling elements from our Powerbeats over-ear wireless headphones since those address a different market segment. (P8)
+   * 1.1 The product shall be visually easy to distinguish from other hand held lidar sensors. (P10)
+   * 1.1 The product shall be easy to use by users. (P10)
+   * 1.2 The product shall be able to hold a charge for travel. (P10)
+   * 1.3 The product shall be able to tell users direction. (P8)
   
 1. **Functionality**
-      * 2.1 The product shall incorporate one or more optical proximity sensors to detect the user wearing it. (P10)
-      * 2.2 The product shall offer a dual microphone in each earbud. (P10)
+      * 2.1 The product shall incorporate a 2D 360-degree lidar sensor programed to identify objects close to the user. (P10)
+      * 2.2 The product shall offer rechargeable battery allowing the user to travel. (P10)
 
 ## Requirement Criteria Specifications
 
-* 1.1.1 - Regulate system power from 9 volts to 5 volts
+* 1.1.1 - Regulate system power from 5 VDC to 9 VDC.
 * 1.1.2 - Provide over-amperage project to not exceed 1.5 amps.
+* 1.1.3 - Rechargeable battery that fits within device holding fixture.
 
 ## Open Questions
 
-* Can we move towards a recyclable and repairable product, for example, with ZIF connectors and glue-free assembly?
-* Can we improve on failing or self-igniting batteries?
+* Can we improve on adding more sensors, such as a camera to aid in identifying the user's surroundings?
+* Can we improve on making the device more user friendly with repairs?
+* Can we integrate navigational devices that can guide the user?
