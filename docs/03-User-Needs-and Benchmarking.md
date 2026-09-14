@@ -130,38 +130,36 @@ How to use this template
 * The buyer needs a compact and lightweight LiDAR module suitable for seamless integration into small robotic platforms.
 * The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches.
 
-### Grouped with Categories
-<!--*Cluster the needs from "First Placement" into themes (e.g., Reliability, Cost/Value, Compatibility, Ease of Use, Durability, Support/Service).*  -->
+## Organized Need Statements
 
+### First Placement
+* The buyer needs a high-resolution solid-state depth camera that minimizes power consumption below 3.5W for energy-efficient operation.
+* The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting.
+* The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-lens gimbals.
+* The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.
+* The buyer needs a compact and lightweight LiDAR module suitable for seamless integration into small robotic platforms.
+* The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requsiring custom source patches.
+
+### Grouped with Categories
 | Category | Need Statements |
 |---|---|
-| Reliability | The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting. 
+| Reliability | * The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting.<br>* The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.<br>* The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches. |
+| Cost / Value | * Engineering budget of $300* |
+| Compatibility | * The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-lens gimbals.<br>* The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches. |
+| Ease of Use | * The buyer needs a compact and lightweight LiDAR module suitable for seamless integration into small robotic platforms. |
+| Durability | * The buyer needs a high-resolution solid-state depth camera that minimizes power consumption below 3.5W for energy-efficient operation. |
 
-The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.
-
-The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches.|
-| Cost / Value | *(list)* |
-| Compatibility | *(list)* |
-| Ease of Use | *(list)* |
-| Durability | *(list)* |
-| Support / Service | *(list)* |
 
 ### Ranked
-<!-- *Within each category, rank need statements by frequency of mention and severity of impact (e.g., High / Medium / Low).* -->
-
 | Rank | Need Statement | Category | Frequency | Severity |
 |---|---|---|---|---|
-| 1 | *(need)* | *(category)* | *(count)* | *(H/M/L)* |
-| 2 | *(need)* | *(category)* | *(count)* | *(H/M/L)* |
+| 1 | *The device will operate reliably with standard robotic operating systems without requiring custom driver modifications.* | *Compatibility* | *3* | *High* |
+| 2 | *The device can filter out ambient interference from sunlight and standard indoor artificial light sources.* | *Reliability* | *2* | *High* |
 
 ---
 
 ## Compiled List of User Needs
 
-<!-- *Final, de-duplicated list of user needs in "The device/product will/is/can..." format, ordered by priority.*  -->
-
-1. The device will *(state need)*.
-2. The device is *(state need)*.
-3. The device can *(state need)*.
-
-<!-- Continue numbering sequentially as needs are added. -->
+1. The device will **operate reliably with standard robotic operating systems without requiring custom driver modifications.**
+2. The device is **compact and lightweight to fit easily onto resource-constrained mobile robots.**
+3. The device can **filter out ambient interference from sunlight and standard indoor artificial light sources.**
