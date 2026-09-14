@@ -39,7 +39,6 @@ How to use this template
 |---|---|
 | "It is possible to install the camera on an Autel Evo 2 drone... complete software must be purchased to process the images, how much does it cost thanks" | The buyer needs to know total system cost, including third-party photogrammetry software (e.g., WebODM at no cost, up to ~$3,500 for a permanent license such as Autel Mapper or Pix4D), not just the camera price. |
 | "Intel closes the 3D depth camera 'RealSense' business... but the product itself inside was beautiful and the protective sheet was also attached cleanly... it works without problems." | Even after the product line was discontinued, the buyer wanted assurance that a purchased unit would arrive in genuinely new, fully functional condition. |
-| *(add a third quote)* | *(restate need)* |
 
 ##### Negative Comments
 
@@ -75,7 +74,6 @@ How to use this template
 |---|---|
 | "Bought one after seeing Justin Potter's videos with the Red Komodo... buyers should know it only works with the RS4 Pro. Once configured the right way, it competently performs the work of a focus puller. The tracking function is very good but not perfect, as it's able to discern between human subjects, but struggles with objects... Absolutely chews up the battery, especially with auto tracking." | The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-focus cameras, while accepting a battery-life tradeoff for a smoother gimbal workflow. |
 | "DJI great product unfortunately not good support if that's what you need" | The buyer appreciates DJI's hardware quality but needs customer support that matches that standard. |
-| *(add a third quote)* | *(restate need)* |
 
 ##### Negative Comments
 
@@ -83,7 +81,6 @@ How to use this template
 |---|---|
 | "What virtually all reviews on Youtube conceal: ActiveTrack... only works with the Lidar Pro on people's faces and heads - the sensor does not recognize anything else... Lidar and RavenEye DO NOT work together and cannot be connected to the gimbal together... only when you spend another 2300 euros on DJI Transmission can you also select the track range of the lidar on a larger monitor." | The buyer needs a LiDAR tracking system that reliably supports non-human subjects, integrates with image-transmission tools, and offers accessible on-set screen controls without requiring costly add-on equipment. |
 | "With the 14mm lens, subject tracking is quite OK - but the often-discussed focusing on the object even before it gets into the camera's image section doesn't work at 14mm, as the lidar calculates 35mm... Using the lidar with focal lengths longer than 50mm is hardly recommended anymore - unless you have forever time on set to turn the settings over and over again until it fits." | The buyer needs a LiDAR focusing system that maintains reliable, customizable tracking across a range of focal lengths and fast subject movement, without constant on-set recalibration. |
-| *(add a third quote)* | *(restate need)* |
 
 
 ---
@@ -120,21 +117,29 @@ How to use this template
 |---|---|
 | "It doesn't work with the included USB cable. I'm using one of my own data cables, and now the lidar is working perfectly with Rpi 5." | The cable provide wasn't working and was defective and needed a working cable to use the product |
 | "The LD19 driver apparently calculates the number of readings in a scan in a non-conformal way and is out of spec with what the ROS2 SLAM Toolbox expects. The maintainer of SLAM toolbox has asked maintainers of LIDAR drivers to fix the calculation on their end, this is manufacturer won't respond." | Costumer ran into a bug and tried to get help from manufacturer and they didn't respond |
-| *(add quote)* | *(restate need)* |
 
 ---
 
 ## Organized Need Statements
 
 ### First Placement
-<!-- *List every restated need statement pulled from the searches above, in the order you captured them, with no de-duplication yet.* -->
+* The buyer needs a high-resolution solid-state depth camera that minimizes power consumption below 3.5W for energy-efficient operation.
+* The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting.
+* The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-lens gimbals.
+* The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.
+* The buyer needs a compact and lightweight LiDAR module suitable for seamless integration into small robotic platforms.
+* The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches.
 
 ### Grouped with Categories
 <!--*Cluster the needs from "First Placement" into themes (e.g., Reliability, Cost/Value, Compatibility, Ease of Use, Durability, Support/Service).*  -->
 
 | Category | Need Statements |
 |---|---|
-| Reliability | *(list)* |
+| Reliability | The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting. 
+
+The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.
+
+The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches.|
 | Cost / Value | *(list)* |
 | Compatibility | *(list)* |
 | Ease of Use | *(list)* |
