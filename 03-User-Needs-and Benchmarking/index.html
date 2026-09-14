@@ -769,6 +769,34 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organized-need-statements_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Organized Need Statements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Organized Need Statements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-placement_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First Placement
+      
+    </span>
+  </a>
+  
+</li>
+        
           <li class="md-nav__item">
   <a href="#grouped-with-categories" class="md-nav__link">
     <span class="md-ellipsis">
@@ -1256,6 +1284,34 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organized-need-statements_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Organized Need Statements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Organized Need Statements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-placement_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First Placement
+      
+    </span>
+  </a>
+  
+</li>
+        
           <li class="md-nav__item">
   <a href="#grouped-with-categories" class="md-nav__link">
     <span class="md-ellipsis">
@@ -1509,9 +1565,17 @@ How to use this template
 <li>The buyer needs a compact and lightweight LiDAR module suitable for seamless integration into small robotic platforms.</li>
 <li>The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches.</li>
 </ul>
+<h2 id="organized-need-statements_1">Organized Need Statements</h2>
+<h3 id="first-placement_1">First Placement</h3>
+<ul>
+<li>The buyer needs a high-resolution solid-state depth camera that minimizes power consumption below 3.5W for energy-efficient operation.</li>
+<li>The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting.</li>
+<li>The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-lens gimbals.</li>
+<li>The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.</li>
+<li>The buyer needs a compact and lightweight LiDAR module suitable for seamless integration into small robotic platforms.</li>
+<li>The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requsiring custom source patches.</li>
+</ul>
 <h3 id="grouped-with-categories">Grouped with Categories</h3>
-<!--*Cluster the needs from "First Placement" into themes (e.g., Reliability, Cost/Value, Compatibility, Ease of Use, Durability, Support/Service).*  -->
-
 <table>
 <thead>
 <tr>
@@ -1522,20 +1586,27 @@ How to use this template
 <tbody>
 <tr>
 <td>Reliability</td>
-<td>The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting.</td>
+<td>* The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting.<br><em> The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.<br></em> The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches.</td>
+</tr>
+<tr>
+<td>Cost / Value</td>
+<td>* Engineering budget of $300*</td>
+</tr>
+<tr>
+<td>Compatibility</td>
+<td>* The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-lens gimbals.<br>* The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches.</td>
+</tr>
+<tr>
+<td>Ease of Use</td>
+<td>* The buyer needs a compact and lightweight LiDAR module suitable for seamless integration into small robotic platforms.</td>
+</tr>
+<tr>
+<td>Durability</td>
+<td>* The buyer needs a high-resolution solid-state depth camera that minimizes power consumption below 3.5W for energy-efficient operation.</td>
 </tr>
 </tbody>
 </table>
-<p>The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.</p>
-<p>The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches.|
-| Cost / Value | <em>(list)</em> |
-| Compatibility | <em>(list)</em> |
-| Ease of Use | <em>(list)</em> |
-| Durability | <em>(list)</em> |
-| Support / Service | <em>(list)</em> |</p>
 <h3 id="ranked">Ranked</h3>
-<!-- *Within each category, rank need statements by frequency of mention and severity of impact (e.g., High / Medium / Low).* -->
-
 <table>
 <thead>
 <tr>
@@ -1549,30 +1620,27 @@ How to use this template
 <tbody>
 <tr>
 <td>1</td>
-<td><em>(need)</em></td>
-<td><em>(category)</em></td>
-<td><em>(count)</em></td>
-<td><em>(H/M/L)</em></td>
+<td><em>The device will operate reliably with standard robotic operating systems without requiring custom driver modifications.</em></td>
+<td><em>Compatibility</em></td>
+<td><em>3</em></td>
+<td><em>High</em></td>
 </tr>
 <tr>
 <td>2</td>
-<td><em>(need)</em></td>
-<td><em>(category)</em></td>
-<td><em>(count)</em></td>
-<td><em>(H/M/L)</em></td>
+<td><em>The device can filter out ambient interference from sunlight and standard indoor artificial light sources.</em></td>
+<td><em>Reliability</em></td>
+<td><em>2</em></td>
+<td><em>High</em></td>
 </tr>
 </tbody>
 </table>
 <hr>
 <h2 id="compiled-list-of-user-needs">Compiled List of User Needs</h2>
-<!-- *Final, de-duplicated list of user needs in "The device/product will/is/can..." format, ordered by priority.*  -->
-
 <ol>
-<li>The device will <em>(state need)</em>.</li>
-<li>The device is <em>(state need)</em>.</li>
-<li>The device can <em>(state need)</em>.</li>
+<li>The device will <strong>operate reliably with standard robotic operating systems without requiring custom driver modifications.</strong></li>
+<li>The device is <strong>compact and lightweight to fit easily onto resource-constrained mobile robots.</strong></li>
+<li>The device can <strong>filter out ambient interference from sunlight and standard indoor artificial light sources.</strong></li>
 </ol>
-<!-- Continue numbering sequentially as needs are added. -->
 
 
 
