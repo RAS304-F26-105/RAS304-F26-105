@@ -608,6 +608,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Step Three">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prioritization-quantitative-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prioritization &amp; Quantitative Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -814,6 +831,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Step Three">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prioritization-quantitative-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prioritization &amp; Quantitative Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -874,38 +908,627 @@
   <h1>Design Ideation</h1>
 
 <h2 id="introoverview">Intro/overview</h2>
-<p>Lorem markdownum gradus, qui largis, nec pater pleno: fatum. Adspexit cursus
-cur, aut in adhuc crimina <strong>habebat</strong>: pro.</p>
+<p>This section presents the design ideation process for <strong>Team Phoenix Phorce's Assistive LiDAR/Sonar Navigation Device</strong>[cite: 1]. To address key navigational challenges faced by visually impaired users—such as detecting low-lying obstacles, avoiding head-level hazards, and operating reliably in varied indoor/outdoor lighting—our team generated a wide range of modular system features[cite: 1].</p>
+<p>Features were prioritized based on frequency, severity, and critical user needs[cite: 1], focusing heavily on <strong>ROS2 compatibility</strong>[cite: 1], <strong>ambient light and solar filtering</strong>[cite: 1], <strong>power efficiency below 3.5W</strong>[cite: 1], and <strong>tactile/audio feedback mechanisms</strong>[cite: 1].</p>
+<hr>
 <h2 id="generating-ideas">Generating Ideas</h2>
-<p>For each user need and product requirement, brainstorm 5 different product features that could be used to satisfy that requirement.</p>
+<p>For each identified user need and product requirement, 5 distinct product features were brainstormed to satisfy the requirement (totaling 100 features).</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: right;">requirement / need</th>
-<th style="text-align: center;">feature</th>
-<th>detail</th>
+<th style="text-align: right;">#</th>
+<th style="text-align: left;">requirement / need</th>
+<th style="text-align: left;">feature</th>
+<th style="text-align: left;">detail</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: right;">product provides clear notifications</td>
-<td style="text-align: center;">buzzer</td>
-<td>the device provides different sounding tones and patterns for each function</td>
+<td style="text-align: right;"><strong>1</strong></td>
+<td style="text-align: left;">Audio Notifications[cite: 1]</td>
+<td style="text-align: left;">Variable-pitch Piezo Buzzer</td>
+<td style="text-align: left;">Emits higher pitch tones as obstacles get closer to convey distance dynamically.</td>
 </tr>
 <tr>
-<td style="text-align: right;">product provides clear notifications</td>
-<td style="text-align: center;">speaker</td>
-<td>the device can emit full waveforms</td>
+<td style="text-align: right;"><strong>2</strong></td>
+<td style="text-align: left;">Audio Notifications[cite: 1]</td>
+<td style="text-align: left;">Bone Conduction Headphone Jack</td>
+<td style="text-align: left;">Transmits audio alerts without blocking the user's ambient environmental hearing.</td>
 </tr>
 <tr>
-<td style="text-align: right;">..</td>
-<td style="text-align: center;">..</td>
-<td>..</td>
+<td style="text-align: right;"><strong>3</strong></td>
+<td style="text-align: left;">Audio Notifications[cite: 1]</td>
+<td style="text-align: left;">Voice Alert Synthesizer</td>
+<td style="text-align: left;">Spoken direction prompts (e.g., "Obstacle 3 feet ahead left") via TTS engine.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>4</strong></td>
+<td style="text-align: left;">Audio Notifications[cite: 1]</td>
+<td style="text-align: left;">Spatial 3D Audio</td>
+<td style="text-align: left;">Panned stereo signals indicating the precise angle (left/right) of hazards.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>5</strong></td>
+<td style="text-align: left;">Audio Notifications[cite: 1]</td>
+<td style="text-align: left;">Polyphonic Chime Generator</td>
+<td style="text-align: left;">Distinct multi-tone chimes to differentiate low-battery from critical collision warnings.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>6</strong></td>
+<td style="text-align: left;">Haptic Feedback</td>
+<td style="text-align: left;">Dual ERM Vibration Motors</td>
+<td style="text-align: left;">Left and right handle grip motors vibrating independently to signal obstacle direction.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>7</strong></td>
+<td style="text-align: left;">Haptic Feedback</td>
+<td style="text-align: left;">Linear Resonant Actuator (LRA)</td>
+<td style="text-align: left;">Precise haptic pulses varying frequency based on proximity to physical barriers[cite: 1].</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>8</strong></td>
+<td style="text-align: left;">Haptic Feedback</td>
+<td style="text-align: left;">Solenoid Tapper</td>
+<td style="text-align: left;">Micro solenoid providing distinct mechanical "clicks" on the user's thumb for quick alerts.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>9</strong></td>
+<td style="text-align: left;">Haptic Feedback</td>
+<td style="text-align: left;">Dynamic Variable-Grip Force</td>
+<td style="text-align: left;">Active resistance feedback in the handle warning when entering narrow passages.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>10</strong></td>
+<td style="text-align: left;">Haptic Feedback</td>
+<td style="text-align: left;">Multi-Point Haptic Matrix</td>
+<td style="text-align: left;">Array of 4 small vibration motors along the handle for 360-degree direction indication.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>11</strong></td>
+<td style="text-align: left;">Power Management (&lt; 3.5W)[cite: 1]</td>
+<td style="text-align: left;">Solid-State ToF / Depth Sensor</td>
+<td style="text-align: left;">Eliminates power-hungry mechanical spinning components[cite: 1].</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>12</strong></td>
+<td style="text-align: left;">Power Management (&lt; 3.5W)[cite: 1]</td>
+<td style="text-align: left;">Dynamic Sensor Duty Cycling</td>
+<td style="text-align: left;">Drops LiDAR scanning frequency from 20Hz to 5Hz when user is stationary.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>13</strong></td>
+<td style="text-align: left;">Power Management (&lt; 3.5W)[cite: 1]</td>
+<td style="text-align: left;">Low-Power ARM Cortex MCU</td>
+<td style="text-align: left;">Executes low-level sensor sampling with low quiescent current draw.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>14</strong></td>
+<td style="text-align: left;">Power Management (&lt; 3.5W)[cite: 1]</td>
+<td style="text-align: left;">High-Efficiency Buck Converter</td>
+<td style="text-align: left;">Synchronous buck regulator maximizing power conversion efficiency from battery.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>15</strong></td>
+<td style="text-align: left;">Power Management (&lt; 3.5W)[cite: 1]</td>
+<td style="text-align: left;">OLED Display Auto-Dimming</td>
+<td style="text-align: left;">Dims or shuts off onboard debug screen after 10 seconds of user inactivity.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>16</strong></td>
+<td style="text-align: left;">Ambient Light Filtering[cite: 1]</td>
+<td style="text-align: left;">Narrow Bandpass Optical Filter</td>
+<td style="text-align: left;">Blocks solar infrared spectrum interference, isolating 940nm LiDAR laser pulses[cite: 1].</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>17</strong></td>
+<td style="text-align: left;">Ambient Light Filtering[cite: 1]</td>
+<td style="text-align: left;">Pulsed Light Differential Sampling</td>
+<td style="text-align: left;">Subtracts ambient light levels from active laser return signals programmatically[cite: 1].</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>18</strong></td>
+<td style="text-align: left;">Ambient Light Filtering[cite: 1]</td>
+<td style="text-align: left;">High-Frequency Sonar Fallback</td>
+<td style="text-align: left;">Switch to ultrasonic sensing when high direct sunlight lowers optical SNR[cite: 1].</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>19</strong></td>
+<td style="text-align: left;">Ambient Light Filtering[cite: 1]</td>
+<td style="text-align: left;">Auto-Gain Control (AGC)</td>
+<td style="text-align: left;">Dynamically adjusts photodiode sensitivity depending on ambient lux levels.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>20</strong></td>
+<td style="text-align: left;">Ambient Light Filtering[cite: 1]</td>
+<td style="text-align: left;">Polarized Lens Coating</td>
+<td style="text-align: left;">Eliminates glare reflections from wet or glass surfaces during outdoor use[cite: 1].</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>21</strong></td>
+<td style="text-align: left;">ROS2 Software Compatibility[cite: 1]</td>
+<td style="text-align: left;">Native micro-ROS Client</td>
+<td style="text-align: left;">Directly serializes sensor data into ROS2 topics via USB/UART[cite: 1].</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>22</strong></td>
+<td style="text-align: left;">ROS2 Software Compatibility[cite: 1]</td>
+<td style="text-align: left;">Standard <code>sensor_msgs/LaserScan</code></td>
+<td style="text-align: left;">Outputs standard ROS2 point cloud array for plug-and-play navigation nodes[cite: 1].</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>23</strong></td>
+<td style="text-align: left;">ROS2 Software Compatibility[cite: 1]</td>
+<td style="text-align: left;">ROS2 Lifecycle Node Support</td>
+<td style="text-align: left;">Firmware supports managed state machine transitions (Configure, Activate, Deactivate).</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>24</strong></td>
+<td style="text-align: left;">ROS2 Software Compatibility[cite: 1]</td>
+<td style="text-align: left;">Dynamic Reconfigure Interface</td>
+<td style="text-align: left;">Allows remotely tuning detection threshold parameters over ROS2 services.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>25</strong></td>
+<td style="text-align: left;">ROS2 Software Compatibility[cite: 1]</td>
+<td style="text-align: left;">TF2 Transform Publisher</td>
+<td style="text-align: left;">Broadcasts real-time coordinate frames (<code>base_link</code> to <code>laser_frame</code>) for ROS2 TF trees.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>26</strong></td>
+<td style="text-align: left;">Ergonomics &amp; Grip</td>
+<td style="text-align: left;">Contour Rubberized Handle</td>
+<td style="text-align: left;">Ergonomic handgrip molded to minimize fatigue during long walking sessions.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>27</strong></td>
+<td style="text-align: left;">Ergonomics &amp; Grip</td>
+<td style="text-align: left;">Lanyard Wrist Strap</td>
+<td style="text-align: left;">Prevents device damage from accidental drops during operation.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>28</strong></td>
+<td style="text-align: left;">Ergonomics &amp; Grip</td>
+<td style="text-align: left;">Adjustable Angled Sensor Head</td>
+<td style="text-align: left;">Tilts sensor ±15 degrees to match varying user heights and walking angles.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>29</strong></td>
+<td style="text-align: left;">Ergonomics &amp; Grip</td>
+<td style="text-align: left;">Ambidextrous Shell Design</td>
+<td style="text-align: left;">Symmetric casing for seamless use by both left- and right-handed individuals.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>30</strong></td>
+<td style="text-align: left;">Ergonomics &amp; Grip</td>
+<td style="text-align: left;">Lightweight Carbon Fiber Body</td>
+<td style="text-align: left;">Reduces total device mass under 300g for effortless daily carry.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>31</strong></td>
+<td style="text-align: left;">Obstacle Detection (Low Level)</td>
+<td style="text-align: left;">Downward Sonar Transducer</td>
+<td style="text-align: left;">Detects curbs, drop-offs, stairs, and holes in sidewalks.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>32</strong></td>
+<td style="text-align: left;">Obstacle Detection (Low Level)</td>
+<td style="text-align: left;">Wide-Beam Ultrasonic Sensor</td>
+<td style="text-align: left;">Catches low-lying obstacles like fire hydrants, trash cans, and pets.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>33</strong></td>
+<td style="text-align: left;">Obstacle Detection (Low Level)</td>
+<td style="text-align: left;">Ground-Proximity Infrared Array</td>
+<td style="text-align: left;">Short-range optical triangulation to detect subtle uneven pavement tiles.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>34</strong></td>
+<td style="text-align: left;">Obstacle Detection (Low Level)</td>
+<td style="text-align: left;">Mechanical Bumper Probe</td>
+<td style="text-align: left;">Spring-loaded physical wire probe detecting physical contact at ground level.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>35</strong></td>
+<td style="text-align: left;">Obstacle Detection (Low Level)</td>
+<td style="text-align: left;">Time-of-Flight Cliff Detector</td>
+<td style="text-align: left;">Point-laser measuring rapid increase in ground distance (detecting ledge drops).</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>36</strong></td>
+<td style="text-align: left;">Obstacle Detection (Overhead)</td>
+<td style="text-align: left;">Upward Angled ToF Sensor</td>
+<td style="text-align: left;">Scans for overhanging tree branches, signs, and low doorways at head level.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>37</strong></td>
+<td style="text-align: left;">Obstacle Detection (Overhead)</td>
+<td style="text-align: left;">Dual 2D Micro LiDAR Array</td>
+<td style="text-align: left;">Provides vertical plane scanning to catch obstacles above waist height.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>38</strong></td>
+<td style="text-align: left;">Obstacle Detection (Overhead)</td>
+<td style="text-align: left;">Ultrasonic Rangefinder</td>
+<td style="text-align: left;">Wide-cone upper transducer checking overhead clearance continuously.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>39</strong></td>
+<td style="text-align: left;">Obstacle Detection (Overhead)</td>
+<td style="text-align: left;">Stereo Camera Module</td>
+<td style="text-align: left;">Processed depth map to spot hanging obstacles outside optical sensor cones.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>40</strong></td>
+<td style="text-align: left;">Obstacle Detection (Overhead)</td>
+<td style="text-align: left;">Parabolic Mirror Reflective ToF</td>
+<td style="text-align: left;">Spreads single laser beam vertically to cover head-to-waist area efficiently.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>41</strong></td>
+<td style="text-align: left;">Wireless Communication</td>
+<td style="text-align: left;">Bluetooth Low Energy (BLE 5.0)</td>
+<td style="text-align: left;">Streams diagnostic telemetry and status to a companion smartphone app.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>42</strong></td>
+<td style="text-align: left;">Wireless Communication</td>
+<td style="text-align: left;">Wi-Fi Access Point</td>
+<td style="text-align: left;">Hosts local web-based configuration page for firmware setup and sensor calibration.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>43</strong></td>
+<td style="text-align: left;">Wireless Communication</td>
+<td style="text-align: left;">LoRa Remote Tracking</td>
+<td style="text-align: left;">Transmits emergency location packets over long range in outdoor environments.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>44</strong></td>
+<td style="text-align: left;">Wireless Communication</td>
+<td style="text-align: left;">NFC Quick Pairing</td>
+<td style="text-align: left;">Enables instant Bluetooth setup by tapping smartphone to handle enclosure.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>45</strong></td>
+<td style="text-align: left;">Wireless Communication</td>
+<td style="text-align: left;">ESP-NOW Protocol</td>
+<td style="text-align: left;">Peer-to-peer low latency communication between main handle and secondary wearable units.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>46</strong></td>
+<td style="text-align: left;">Power Supply &amp; Battery</td>
+<td style="text-align: left;">Swappable 18650 Li-Ion Battery</td>
+<td style="text-align: left;">Allows user to replace depleted batteries instantly on long trips.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>47</strong></td>
+<td style="text-align: left;">Power Supply &amp; Battery</td>
+<td style="text-align: left;">USB-C Power Delivery (PD)</td>
+<td style="text-align: left;">Fast charging interface powering and charging device via standard chargers.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>48</strong></td>
+<td style="text-align: left;">Power Supply &amp; Battery</td>
+<td style="text-align: left;">Wireless Qi Charging Pad</td>
+<td style="text-align: left;">Solderless inductive charging receiver for easy drop-in desk docking.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>49</strong></td>
+<td style="text-align: left;">Power Supply &amp; Battery</td>
+<td style="text-align: left;">Fuel Gauge IC (MAX17048)</td>
+<td style="text-align: left;">Calculates precise state-of-charge % based on cell voltage algorithm.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>50</strong></td>
+<td style="text-align: left;">Power Supply &amp; Battery</td>
+<td style="text-align: left;">Solar Trickle Charge Panel</td>
+<td style="text-align: left;">Integrated mini solar panel extending battery life during outdoor daylight use[cite: 1].</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>51</strong></td>
+<td style="text-align: left;">User Inputs &amp; Controls</td>
+<td style="text-align: left;">Tactile Multi-Function Buttons</td>
+<td style="text-align: left;">Distinct raised physical button shapes (circle, square) for blind operation.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>52</strong></td>
+<td style="text-align: left;">User Inputs &amp; Controls</td>
+<td style="text-align: left;">Rotary Mode Dial</td>
+<td style="text-align: left;">Stepped detent dial for switching between "Indoor", "Outdoor", and "Crowded" modes.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>53</strong></td>
+<td style="text-align: left;">User Inputs &amp; Controls</td>
+<td style="text-align: left;">Capacitive Touch Slider</td>
+<td style="text-align: left;">Smoothly adjusts haptic feedback intensity or audio volume.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>54</strong></td>
+<td style="text-align: left;">User Inputs &amp; Controls</td>
+<td style="text-align: left;">Mechanical Mute Switch</td>
+<td style="text-align: left;">Physical rocker switch instantly silencing audio alarms in quiet environments.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>55</strong></td>
+<td style="text-align: left;">User Inputs &amp; Controls</td>
+<td style="text-align: left;">Emergency SOS Panic Trigger</td>
+<td style="text-align: left;">Long-press recessed button emitting loud horn alarm and requesting help via BLE.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>56</strong></td>
+<td style="text-align: left;">Status Display</td>
+<td style="text-align: left;">High-Contrast Mini OLED</td>
+<td style="text-align: left;">128x32 screen displaying IP address, ROS status, and battery percentage.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>57</strong></td>
+<td style="text-align: left;">Status Display</td>
+<td style="text-align: left;">Multi-Color Status LED Array</td>
+<td style="text-align: left;">RGB LED showing system boot status, error codes, and ROS connection state.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>58</strong></td>
+<td style="text-align: left;">Status Display</td>
+<td style="text-align: left;">E-Paper Screen</td>
+<td style="text-align: left;">Ultra low-power display retaining last status and QR code even when unpowered.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>59</strong></td>
+<td style="text-align: left;">Status Display</td>
+<td style="text-align: left;">Single Pulse Heartbeat LED</td>
+<td style="text-align: left;">Flashes at 1Hz to signal healthy background micro-controller execution.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>60</strong></td>
+<td style="text-align: left;">Status Display</td>
+<td style="text-align: left;">Serial TTL UART Port</td>
+<td style="text-align: left;">Exposed internal pin header for real-time serial terminal debugging.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>61</strong></td>
+<td style="text-align: left;">Durability &amp; Weatherproofing</td>
+<td style="text-align: left;">IP65 Rubber Gaskets</td>
+<td style="text-align: left;">Seals shell halves to prevent rain and dust entry during outdoor navigation[cite: 1].</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>62</strong></td>
+<td style="text-align: left;">Durability &amp; Weatherproofing</td>
+<td style="text-align: left;">Shock-Absorbing TPU Bumpers</td>
+<td style="text-align: left;">Overmolded rubber corners protecting electronics from 1.5m drops onto concrete.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>63</strong></td>
+<td style="text-align: left;">Durability &amp; Weatherproofing</td>
+<td style="text-align: left;">Hydrophobic Lens Coating</td>
+<td style="text-align: left;">Repels water droplets on sensor optical windows during rain showers.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>64</strong></td>
+<td style="text-align: left;">Durability &amp; Weatherproofing</td>
+<td style="text-align: left;">Recessed Sensor Optics</td>
+<td style="text-align: left;">Keeps laser lens sunken within shell to avoid scratches when laid face-down.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>65</strong></td>
+<td style="text-align: left;">Durability &amp; Weatherproofing</td>
+<td style="text-align: left;">Sealed Tactile Button Caps</td>
+<td style="text-align: left;">Silicone button covers preventing moisture ingress into internal PCB switches.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>66</strong></td>
+<td style="text-align: left;">Thermal Protection</td>
+<td style="text-align: left;">Internal Thermistor Circuit</td>
+<td style="text-align: left;">Monitors internal MCU and battery temperature, shutting down on overheat.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>67</strong></td>
+<td style="text-align: left;">Thermal Protection</td>
+<td style="text-align: left;">Resettable PTC Fuse</td>
+<td style="text-align: left;">Automatic overcurrent protection guarding circuit components against short circuits.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>68</strong></td>
+<td style="text-align: left;">Thermal Protection</td>
+<td style="text-align: left;">TVS Surge Diodes</td>
+<td style="text-align: left;">Suppresses ESD voltage spikes on exposed USB-C and debug ports.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>69</strong></td>
+<td style="text-align: left;">Thermal Protection</td>
+<td style="text-align: left;">Reverse Polarity Guard MOSFET</td>
+<td style="text-align: left;">Prevents circuit destruction if battery is inserted backwards.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>70</strong></td>
+<td style="text-align: left;">Thermal Protection</td>
+<td style="text-align: left;">Passive Aluminum Heatsink</td>
+<td style="text-align: left;">Dissipates processor heat without requiring loud, power-draining cooling fans.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>71</strong></td>
+<td style="text-align: left;">Orientation Tracking</td>
+<td style="text-align: left;">6-Axis IMU (MPU6050)</td>
+<td style="text-align: left;">Tracks device pitch and roll angles to compensate for hand movement variations.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>72</strong></td>
+<td style="text-align: left;">Orientation Tracking</td>
+<td style="text-align: left;">9-Axis Magnetometer (BNO055)</td>
+<td style="text-align: left;">Integrates compass heading to orient map navigation data relative to North.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>73</strong></td>
+<td style="text-align: left;">Orientation Tracking</td>
+<td style="text-align: left;">Optical Flow Camera</td>
+<td style="text-align: left;">Mounts underneath handle to assist in dead-reckoning movement calculation.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>74</strong></td>
+<td style="text-align: left;">Orientation Tracking</td>
+<td style="text-align: left;">Barometric Pressure Sensor</td>
+<td style="text-align: left;">Detects elevation changes to recognize when user is going up/down stairs or ramps.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>75</strong></td>
+<td style="text-align: left;">Orientation Tracking</td>
+<td style="text-align: left;">Extended Kalman Filter (EKF)</td>
+<td style="text-align: left;">Firmware filtering merging IMU and LiDAR data for smooth position tracking.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>76</strong></td>
+<td style="text-align: left;">Data Logging</td>
+<td style="text-align: left;">MicroSD Card Slot</td>
+<td style="text-align: left;">Logs raw distance data, timestamped warnings, and system logs for review.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>77</strong></td>
+<td style="text-align: left;">Data Logging</td>
+<td style="text-align: left;">Non-Volatile FRAM Memory</td>
+<td style="text-align: left;">Stores user preferences and calibration offsets without flash wearing out.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>78</strong></td>
+<td style="text-align: left;">Data Logging</td>
+<td style="text-align: left;">Crash Flash Dump Partition</td>
+<td style="text-align: left;">Automatically saves stack dump code to internal SPI flash during hardware faults.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>79</strong></td>
+<td style="text-align: left;">Data Logging</td>
+<td style="text-align: left;">Auto Diagnostic Boot Test</td>
+<td style="text-align: left;">Runs automated self-check on sensor lines, audio output, and haptics on startup.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>80</strong></td>
+<td style="text-align: left;">Data Logging</td>
+<td style="text-align: left;">Web Telemetry Streaming</td>
+<td style="text-align: left;">Streams real-time sensor distance histograms over WebSocket to browser UI.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>81</strong></td>
+<td style="text-align: left;">Firmware Management</td>
+<td style="text-align: left;">Dual-Bank OTA Web Flasher</td>
+<td style="text-align: left;">Updates device firmware wirelessly without needing physical cable connection.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>82</strong></td>
+<td style="text-align: left;">Firmware Management</td>
+<td style="text-align: left;">Hardware Watchdog Timer</td>
+<td style="text-align: left;">Resets microcontroller automatically if main loop freezes or enters infinite loop.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>83</strong></td>
+<td style="text-align: left;">Firmware Management</td>
+<td style="text-align: left;">USB Bootloader</td>
+<td style="text-align: left;">Flashes micro-ROS code via standard USB CDC connection using Arduino/PlatformIO.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>84</strong></td>
+<td style="text-align: left;">Firmware Management</td>
+<td style="text-align: left;">Fail-Safe Rollback Partition</td>
+<td style="text-align: left;">Reverts to factory default firmware if newly flashed update fails to boot.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>85</strong></td>
+<td style="text-align: left;">Firmware Management</td>
+<td style="text-align: left;">Cryptographic Signature Check</td>
+<td style="text-align: left;">Verifies signed binary files before applying updates to protect device integrity.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>86</strong></td>
+<td style="text-align: left;">Spatial Mapping &amp; SLAM</td>
+<td style="text-align: left;">2D Point Cloud Generator</td>
+<td style="text-align: left;">Converts distance measurements into 2D occupancy grid maps for ROS2 Nav2.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>87</strong></td>
+<td style="text-align: left;">Spatial Mapping &amp; SLAM</td>
+<td style="text-align: left;">Dynamic Filtering Algorithm</td>
+<td style="text-align: left;">Ignores temporary dynamic obstacles (e.g., passing insects or leaves).</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>88</strong></td>
+<td style="text-align: left;">Spatial Mapping &amp; SLAM</td>
+<td style="text-align: left;">Corner &amp; Doorway Recognition</td>
+<td style="text-align: left;">Software feature identifying geometry signature of doorways and hallway corners.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>89</strong></td>
+<td style="text-align: left;">Spatial Mapping &amp; SLAM</td>
+<td style="text-align: left;">Reflective Tape Marker Sensing</td>
+<td style="text-align: left;">Identifies high-intensity returns from reflective safety clothing or path markers.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>90</strong></td>
+<td style="text-align: left;">Spatial Mapping &amp; SLAM</td>
+<td style="text-align: left;">Multi-Sensor Fusion Engine</td>
+<td style="text-align: left;">Blends sonar range cone data with LiDAR single-line vectors into a unified depth map.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>91</strong></td>
+<td style="text-align: left;">Customizability &amp; Mounting</td>
+<td style="text-align: left;">Quick-Release Cane Mount</td>
+<td style="text-align: left;">Clamps device onto standard white cane for hybrid tactile-optical navigation.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>92</strong></td>
+<td style="text-align: left;">Customizability &amp; Mounting</td>
+<td style="text-align: left;">1/4"-20 Tripod Thread</td>
+<td style="text-align: left;">Standard threaded mount at base for laboratory mounting and benchmarking tests.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>93</strong></td>
+<td style="text-align: left;">Customizability &amp; Mounting</td>
+<td style="text-align: left;">Modular Sensor Head Clip</td>
+<td style="text-align: left;">Snap-on housing allowing easy swap of 30-degree vs 90-degree lens configurations.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>94</strong></td>
+<td style="text-align: left;">Customizability &amp; Mounting</td>
+<td style="text-align: left;">Belt-Clip Enclosure Bracket</td>
+<td style="text-align: left;">Allows user to wear unit on belt when using external wired headset.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>95</strong></td>
+<td style="text-align: left;">Customizability &amp; Mounting</td>
+<td style="text-align: left;">Magnetic Docking Plate</td>
+<td style="text-align: left;">Neodymium magnetic mounting interface for snapping onto backpacks or chest rigs.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>96</strong></td>
+<td style="text-align: left;">Safety &amp; Fail-Safes</td>
+<td style="text-align: left;">Low-Battery Auto-Vibration</td>
+<td style="text-align: left;">Emits continuous distinct vibration pattern when battery level drops under 10%.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>97</strong></td>
+<td style="text-align: left;">Safety &amp; Fail-Safes</td>
+<td style="text-align: left;">Sensor Loss Alarm</td>
+<td style="text-align: left;">Immediately emits distinct warning beep if primary LiDAR or sonar stops communicating.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>98</strong></td>
+<td style="text-align: left;">Safety &amp; Fail-Safes</td>
+<td style="text-align: left;">Redundant Dual-Sonar Array</td>
+<td style="text-align: left;">Backup sonar transducer providing basic proximity sensing if LiDAR optical window is covered.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>99</strong></td>
+<td style="text-align: left;">Safety &amp; Fail-Safes</td>
+<td style="text-align: left;">Inactivity Auto Shutdown</td>
+<td style="text-align: left;">Powers off system after 15 minutes of zero motion detection to preserve battery life.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>100</strong></td>
+<td style="text-align: left;">Safety &amp; Fail-Safes</td>
+<td style="text-align: left;">Out-of-Range Audio Signal</td>
+<td style="text-align: left;">Soft warning tone indicating target distance exceeds max effective range (e.g., &gt; 6 meters).</td>
 </tr>
 </tbody>
 </table>
+<hr>
 <h2 id="step-three">Step Three</h2>
-<p>Add your context and tables</p>
+<h3 id="prioritization-quantitative-strategy">Prioritization &amp; Quantitative Strategy</h3>
+<p>Features were evaluated and grouped based on five major operational themes: <strong>Reliability</strong>[cite: 1], <strong>Cost</strong>[cite: 1], <strong>ROS2 Compatibility</strong>[cite: 1], <strong>Durability</strong>[cite: 1], and <strong>Ease-of-Use</strong>[cite: 1].</p>
 <h2 id="step-four">Step Four</h2>
 <p>Add your different product concepts stuff here</p>
 <h2 id="step-six-video-link">Step Six (video link)</h2>
