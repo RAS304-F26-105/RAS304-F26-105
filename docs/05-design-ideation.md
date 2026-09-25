@@ -121,9 +121,75 @@ For each identified user need and product requirement, 5 distinct product featur
 
 ## Step Three
 
+### Sorting and Grouping
+
+After completing the initial brainstorm of 100 features, the team sorted the ideas into functional groups. Grouping the features made it easier to compare ideas that solve similar problems and identify which features would contribute the most to the final product.
+
+The features were organized into the following groups:
+
+| Functional Group | Feature Numbers |
+| :--- | :--- |
+| **Obstacle Detection & Environmental Sensing** | 11, 16–20, 31–40, 86–90, 98 |
+| **User Feedback & Interaction** | 1–10, 51–55, 96–97, 100 |
+| **Processing, ROS2 & Orientation** | 13, 21–25, 71–75 |
+| **Power System & Efficiency** | 12, 14–15, 46–50, 99 |
+| **Physical Design, Mounting & Ergonomics** | 26–30, 61–65, 91–95 |
+| **Communication & System Status** | 41–45, 56–60 |
+| **Reliability, Diagnostics & Protection** | 66–70, 76–85 |
+
 ### Prioritization & Quantitative Strategy
 
-Features were evaluated and grouped based on five major operational themes: **Reliability**[cite: 1], **Cost**[cite: 1], **ROS2 Compatibility**[cite: 1], **Durability**[cite: 1], and **Ease-of-Use**[cite: 1].
+After grouping the features, the team evaluated the ideas using five major criteria: **Reliability**, **Cost**, **ROS2 Compatibility**, **Durability**, and **Ease-of-Use**.
+
+Each feature was rated from **1 to 5**, where 1 represents poor performance in that category and 5 represents excellent performance. The criteria were weighted based on their importance to the assistive navigation device.
+
+| Criterion | Weight | Reason |
+| :--- | :---: | :--- |
+| **Reliability** | 30% | The system must consistently detect hazards and provide dependable feedback to the user. |
+| **Ease-of-Use** | 25% | The device should be intuitive and require minimal interaction while walking. |
+| **ROS2 Compatibility** | 20% | Features should integrate effectively with the ROS2-based architecture of the project. |
+| **Cost** | 15% | Components and features should remain practical within the project budget. |
+| **Durability** | 10% | The device should tolerate everyday handling and outdoor use. |
+
+The weighted score for each feature was calculated using:
+
+**Weighted Score = (Reliability × 0.30) + (Ease-of-Use × 0.25) + (ROS2 Compatibility × 0.20) + (Cost × 0.15) + (Durability × 0.10)**
+
+The maximum possible score was **5.00**.
+
+### Ranking and Discussion
+
+Rather than selecting features only because they were technically advanced, the team considered how directly each feature addressed the primary needs of the user. Features related to obstacle detection, dependable user feedback, and system reliability generally received higher priority because they directly affect the core purpose of the device.
+
+For obstacle detection, the team favored using complementary sensors rather than relying on a single sensing method. Features such as the **Downward Sonar Transducer (#31)** and **Time-of-Flight Cliff Detector (#35)** provide methods for detecting low-level hazards and changes in ground height, while the **Upward Angled ToF Sensor (#36)** and **Dual 2D Micro LiDAR Array (#37)** address obstacles at or above the user's upper body. The **Multi-Sensor Fusion Engine (#90)** was also ranked highly because it allows information from sonar and LiDAR sensors to be combined.
+
+For user feedback, the team prioritized feedback that can communicate information without interfering with the user's awareness of the surrounding environment. The **Dual ERM Vibration Motors (#6)**, **Linear Resonant Actuator (#7)**, and **Bone Conduction Headphone Jack (#2)** were therefore considered strong options. Physical controls such as **Tactile Multi-Function Buttons (#51)** were also favored because they can be identified through touch.
+
+ROS2 integration was another important consideration. The **Native micro-ROS Client (#21)**, **Standard sensor_msgs/LaserScan output (#22)**, and **TF2 Transform Publisher (#25)** provide a direct path for integrating sensor information with the required ROS2 environment. Orientation features such as the **6-Axis IMU (#71)** and **Extended Kalman Filter (#75)** could further improve the interpretation of sensor measurements while the device moves.
+
+Power and reliability features were also considered essential. **Dynamic Sensor Duty Cycling (#12)** can reduce unnecessary power consumption, while **USB-C Power Delivery (#47)** provides a convenient charging method. Safety features such as the **Sensor Loss Alarm (#97)** and **Low-Battery Auto-Vibration (#96)** provide the user with immediate feedback when the system can no longer operate normally.
+
+Some features were considered useful but received lower priority because they did not directly contribute to the primary navigation function or added additional cost, power consumption, or complexity. Examples include the **Solar Trickle Charge Panel (#50)**, **LoRa Remote Tracking (#43)**, **Wireless Qi Charging (#48)**, and **E-Paper Screen (#58)**. These ideas were retained for possible future iterations rather than removed from consideration.
+
+### Refinement of Ideas
+
+The sorting and ranking process also led the team to combine several individual ideas into more complete subsystems. For example, the original LiDAR, sonar, and orientation features can be combined with the **Multi-Sensor Fusion Engine (#90)** to create a sensing subsystem capable of detecting hazards at multiple heights while accounting for the orientation of the device.
+
+Similarly, individual haptic and audio concepts can be combined into a multimodal feedback system. Directional vibration could provide immediate obstacle information, while audio could communicate system conditions such as sensor failures or low battery levels.
+
+These combinations helped move the brainstorming process from individual features toward complete product concepts.
+
+### Product Concept Groups
+
+Following the ranking and discussion process, the selected features were divided into three preliminary product concepts. Some features appear in more than one concept because they address fundamental requirements of the system, while each concept emphasizes a different design approach.
+
+| Concept | Design Focus | Example Features |
+| :--- | :--- | :--- |
+| **Concept 1 – Cane-Integrated Navigation System** | Balanced system integrated directly with a traditional white cane | #31 Downward Sonar, #36 Upward ToF, #90 Sensor Fusion, #6 Dual Haptics, #21 micro-ROS, #47 USB-C, #71 IMU, #91 Quick-Release Cane Mount, #97 Sensor Loss Alarm |
+| **Concept 2 – Advanced LiDAR Navigation System** | Higher sensor capability with greater emphasis on mapping and ROS2 processing | #37 Dual 2D LiDAR, #86 Point Cloud Generator, #90 Sensor Fusion, #71 IMU, #75 EKF, #21 micro-ROS, #22 LaserScan, #25 TF2, #4 Spatial Audio, #76 MicroSD Logging |
+| **Concept 3 – Lightweight Everyday Navigation Aid** | Lower-complexity design emphasizing portability, power efficiency, and ease of use | #32 Wide-Beam Ultrasonic, #36 Upward ToF, #6 Dual Haptics, #1 Piezo Buzzer, #51 Tactile Buttons, #12 Sensor Duty Cycling, #13 Low-Power MCU, #46 Swappable Battery, #61 IP65 Gaskets, #62 TPU Bumpers |
+
+These three groups will be developed further into the three visual product concepts in the next step.
 
 ## Step Four
 
