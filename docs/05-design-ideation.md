@@ -193,7 +193,7 @@ These three groups will be developed further into the three visual product conce
 
 ## Step Four
 
-These are the 3 Concept Designs we have created ![image](3_Sketch_Concepts.jpg)
+These are the 3 Concept Designs we have created ![image](docs/image/3_Sketch_Concepts.jpg)
 
 ## Step Six (video link)
 Embedded a YouTube video that covers the 
