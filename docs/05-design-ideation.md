@@ -195,7 +195,8 @@ These three groups will be developed further into the three visual product conce
 
 These are the 3 Concept Designs we have created 
 ![3_Sketch_Concepts.jpg](image/3_Sketch_Concepts.jpg)
-![3D_Concept.jpg](image/3D_Concept.jpg)
+The next Image features the 3D model of our Concept product. 
+![3D_Model.jpg](image/3D_Model.jpg)
 
 ## Step Six (video link)
 Embedded a YouTube video that covers the 
