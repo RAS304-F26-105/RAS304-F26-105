@@ -4,56 +4,95 @@ title: Team Block Diagram
 
 ## Introduction
 
-**Bold Text**
-_Italic Text_
-**_Bold and Italic Text_**
+The team block diagram shows how the individual embedded systems boards will communicate with each other as part of the overall project. Each team member is responsible for an individual subsystem, including its microcontroller, sensors and/or actuators, and communication connections.
 
-## Research Question
+The diagram shows the arrangement of the team's boards and the connections between each subsystem. It also documents the ribbon cable connections and the use of the available pins between teammates' boards.
 
-* Bullet Point 1
-* Bullet Point 2
-* Bullet Point 3
+## Team Block Diagram
 
-## Images
+![Team Block Diagram](../image/team_block_diagram.png)
 
-![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png)  
-**Figure 2:** Here is a picture of an image linked on the internet
+**Figure 1:** Team-level block diagram showing the connections between each team member's embedded system.
 
+## Ribbon Cable Connections
 
-![dead bug circuit](../image/imageGoal.JPG){style="width:350px;"}  
-**Figure 2:** Here is a picture from the image folder on my local site, with css formatting to make it smaller
+The team uses the standard 8-pin ribbon cable connection between the embedded system boards. Pin 8 is reserved for ground. Pins 1–7 are assigned to the communication and control signals required between the individual subsystems.
 
-<!-- 
-![showcase](../image/innovation_showcase_Sp-2025.jpg)  
-**Figure 3:** Innovation Showcase Spring '25, where the products were a STEM-themed display that demonstrates a single scientific/engineering concept with the intended user of K-12 students interested in learning about science, technology, engineering, or math. -->
+| Pin | Function | Connection |
+|---|---|---|
+| 1 | TBD | TBD |
+| 2 | TBD | TBD |
+| 3 | TBD | TBD |
+| 4 | TBD | TBD |
+| 5 | TBD | TBD |
+| 6 | TBD | TBD |
+| 7 | TBD | TBD |
+| 8 | Ground | Ground |
 
+The specific GPIO or peripheral connection for each signal is documented in the team block diagram and the corresponding individual subsystem diagrams.
 
-## Results
+## Team Subsystems
 
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
+### Team Member 1 — [Name]
 
-## Conclusions and Future Work
+**Subsystem:** [Subsystem name]
 
-## External Links
+**Microcontroller:** [Microcontroller]
 
-[example link to idealab](https://idealab.asu.edu)
+**Sensor/Actuator:** [Sensor or actuator]
 
+**Function:**  
+[Brief description of what this subsystem does.]
 
-## Results
+### Team Member 2 — [Name]
 
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
+**Subsystem:** [Subsystem name]
 
-## Conclusions and Future Work
+**Microcontroller:** [Microcontroller]
 
-## External Links
+**Sensor/Actuator:** [Sensor or actuator]
 
-[example link to idealab](https://idealab.asu.edu)
+**Function:**  
+[Brief description of what this subsystem does.]
 
+### Team Member 3 — [Name]
+
+**Subsystem:** [Subsystem name]
+
+**Microcontroller:** [Microcontroller]
+
+**Sensor/Actuator:** [Sensor or actuator]
+
+**Function:**  
+[Brief description of what this subsystem does.]
+
+### Team Member 4 — [Name]
+
+**Subsystem:** [Subsystem name]
+
+**Microcontroller:** [Microcontroller]
+
+**Sensor/Actuator:** [Sensor or actuator]
+
+**Function:**  
+[Brief description of what this subsystem does.]
+
+## Communication and Connections
+
+The connections between the individual boards are represented using directional arrows and labeled signals. Each ribbon cable connects the appropriate pins between the team members' microcontrollers.
+
+The team-level connection arrangement is designed to minimize unnecessary interconnections while allowing each subsystem to communicate with the other required subsystems.
+
+The team block diagram will be updated as the individual subsystem designs are developed and finalized.
+
+## Block Diagram Source File
+
+[Team Block Diagram draw.io Source File](../files/team_block_diagram.drawio)
+
+## Design Updates
+
+The team block diagram is a living document and will be updated as the embedded system design develops. Changes to subsystem hardware, communication signals, pin assignments, and board connections will be reflected in the diagram.
 
 ## References
 
-
+- RAS 304 Embedded Systems Design — Team Block Diagram Assignment
