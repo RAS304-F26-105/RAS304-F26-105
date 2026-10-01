@@ -4,94 +4,124 @@ title: Team Block Diagram
 
 ## Introduction
 
-The team block diagram shows how the individual embedded systems boards will communicate with each other as part of the overall project. Each team member is responsible for an individual subsystem, including its microcontroller, sensors and/or actuators, and communication connections.
+The team block diagram shows how the individual embedded system boards will communicate with each other. Each team member is responsible for a subsystem that includes a microcontroller, sensors and/or actuators, and the required communication connections.
 
-The diagram shows the arrangement of the team's boards and the connections between each subsystem. It also documents the ribbon cable connections and the use of the available pins between teammates' boards.
+The team is using a hub/spoke connection layout to organize communication between the individual boards. The 8-pin ribbon cable connectors are used for communication between the microcontrollers, with Pin 8 reserved for ground.
 
 ## Team Block Diagram
 
-![Team Block Diagram](../image/team_block_diagram.png)
+![Team Block Diagram](../image/team-block-diagram.png)
 
-**Figure 1:** Team-level block diagram showing the connections between each team member's embedded system.
+**Figure 1:** Team-level block diagram showing the embedded system subsystems and connections between team members.
+
+## Team Members
+
+### William Layja
+
+William's subsystem is represented as an individual board within the team block diagram. The subsystem will be updated with its microcontroller, peripherals, sensors, actuators, and communication assignments as the design is finalized.
+
+### Khun Oo
+
+Khun's subsystem uses a **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.
+
+The current subsystem includes:
+
+- Digital I/O
+- ADC1
+- ADC/Digital connections
+- Button 1
+- Button 2
+- DAC1
+- Light Sensor
+- Op Amp
+- Ribbon cable connectors
+
+### Mohammed Al Rasbi
+
+Mohammed's subsystem uses a **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.
+
+The current subsystem includes:
+
+- Button 1
+- H-Bridge
+- Motor
+- ADC1
+- ADC2
+- PWM
+- Red LED
+- Microphone
+- Op Amp
+- Ribbon cable connectors
+
+### Jose Baldenegro
+Jose Baldenegro's subsystem uses a **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.
+
+The current subsystem includes:
+
+- Button 1
+- H-Bridge
+- Motor
+- ADC1
+- ADC2
+- PWM
+- Red LED
+- Microphone
+- Op Amp
+- Ribbon cable connectors
+
+### Isaiah Cruz
+
+Isaiah's subsystem uses a **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.
+
+The current subsystem includes:
+
+- Button 1
+- H-Bridge
+- Motor
+- ADC1
+- ADC2
+- PWM
+- Red LED
+- Microphone
+- Op Amp
+- Ribbon cable connectors
+
+### place holder (PH)
+
+PH's subsystem is represented as an individual board within the team block diagram. The subsystem will be updated with its microcontroller, peripherals, sensors, actuators, and communication assignments as the design is finalized.
 
 ## Ribbon Cable Connections
 
-The team uses the standard 8-pin ribbon cable connection between the embedded system boards. Pin 8 is reserved for ground. Pins 1–7 are assigned to the communication and control signals required between the individual subsystems.
+Each board uses an 8-pin ribbon cable connector for communication with the other team members.
 
-| Pin | Function | Connection |
-|---|---|---|
-| 1 | TBD | TBD |
-| 2 | TBD | TBD |
-| 3 | TBD | TBD |
-| 4 | TBD | TBD |
-| 5 | TBD | TBD |
-| 6 | TBD | TBD |
-| 7 | TBD | TBD |
-| 8 | Ground | Ground |
+| Pin | Function |
+|---|---|
+| 1 | Team communication signal |
+| 2 | Team communication signal |
+| 3 | Team communication signal |
+| 4 | Team communication signal |
+| 5 | Team communication signal |
+| 6 | Team communication signal |
+| 7 | Team communication signal |
+| 8 | Ground |
 
-The specific GPIO or peripheral connection for each signal is documented in the team block diagram and the corresponding individual subsystem diagrams.
+Pins 1–7 will interface with the appropriate microcontroller GPIO or peripheral pins. Pin 8 is reserved for ground.
 
-## Team Subsystems
+The specific pin assignments will be updated as the individual subsystem designs are finalized.
 
-### Team Member 1 — [Name]
+## Communication Layout
 
-**Subsystem:** [Subsystem name]
+The team block diagram uses the hub/spoke format to organize the connections between the individual embedded system boards. The diagram identifies the boards, ribbon cable connectors, and the communication paths between the subsystems.
 
-**Microcontroller:** [Microcontroller]
+The block diagram will be updated throughout the semester as the individual subsystem designs and communication requirements are finalized.
 
-**Sensor/Actuator:** [Sensor or actuator]
+## Block Diagram Source
 
-**Function:**  
-[Brief description of what this subsystem does.]
-
-### Team Member 2 — [Name]
-
-**Subsystem:** [Subsystem name]
-
-**Microcontroller:** [Microcontroller]
-
-**Sensor/Actuator:** [Sensor or actuator]
-
-**Function:**  
-[Brief description of what this subsystem does.]
-
-### Team Member 3 — [Name]
-
-**Subsystem:** [Subsystem name]
-
-**Microcontroller:** [Microcontroller]
-
-**Sensor/Actuator:** [Sensor or actuator]
-
-**Function:**  
-[Brief description of what this subsystem does.]
-
-### Team Member 4 — [Name]
-
-**Subsystem:** [Subsystem name]
-
-**Microcontroller:** [Microcontroller]
-
-**Sensor/Actuator:** [Sensor or actuator]
-
-**Function:**  
-[Brief description of what this subsystem does.]
-
-## Communication and Connections
-
-The connections between the individual boards are represented using directional arrows and labeled signals. Each ribbon cable connects the appropriate pins between the team members' microcontrollers.
-
-The team-level connection arrangement is designed to minimize unnecessary interconnections while allowing each subsystem to communicate with the other required subsystems.
-
-The team block diagram will be updated as the individual subsystem designs are developed and finalized.
-
-## Block Diagram Source File
-
-[Team Block Diagram draw.io Source File](../files/team_block_diagram.drawio)
+[Download the Team Block Diagram](../drawio/team-block-diagram.drawio)
 
 ## Design Updates
 
-The team block diagram is a living document and will be updated as the embedded system design develops. Changes to subsystem hardware, communication signals, pin assignments, and board connections will be reflected in the diagram.
+This block diagram is a living document and will be updated as the team's embedded system design develops. Changes to microcontrollers, sensors, actuators, GPIO assignments, peripheral connections, and ribbon cable signals will be reflected in the diagram.
 
 ## References
 
