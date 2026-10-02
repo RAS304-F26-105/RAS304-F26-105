@@ -2,126 +2,171 @@
 title: Team Block Diagram
 ---
 
-## Introduction
+# Team Block Diagram
 
-The team block diagram shows how the individual embedded system boards will communicate with each other. Each team member is responsible for a subsystem that includes a microcontroller, sensors and/or actuators, and the required communication connections.
+## Handheld LiDAR Accessibility Aid
 
-The team is using a hub/spoke connection layout to organize communication between the individual boards. The 8-pin ribbon cable connectors are used for communication between the microcontrollers, with Pin 8 reserved for ground.
+The team block diagram shows the overall embedded-system architecture for the **Handheld LiDAR Accessibility Aid**. The system is divided into five boards: the Data Collection Board, Laser / Scanning Board, Trigger Board, Interpretation Board, and Power Board.
+
+Each board is responsible for a specific part of the system while communicating with the other boards through the defined ribbon-cable and power connections.
 
 ## Team Block Diagram
 
-![Team Block Diagram](../image/team-block-diagram.png)
+![Team Block Diagram](../image/lidar-team-block-diagram.png)
 
-**Figure 1:** Team-level block diagram showing the embedded system subsystems and connections between team members.
+**Figure 1:** Team-level block diagram for the Handheld LiDAR Accessibility Aid.
 
-## Team Members
+## Board Organization
 
-### William Layja
+### Data Collection Board
 
-William's subsystem is represented as an individual board within the team block diagram. The subsystem will be updated with its microcontroller, peripherals, sensors, actuators, and communication assignments as the design is finalized.
+**Team member:** Khun Oo
 
-### Khun Oo
+The Data Collection Board coordinates the collection of LiDAR scan data and scan position information. The board contains the main microcontroller and three UART connections:
 
-Khun's subsystem uses a **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.
+- UART1 TX/RX
+- UART2 TX/RX
+- UART3 TX/RX
 
-The current subsystem includes:
+The board collects and buffers samples before passing the appropriate information to the other subsystems.
 
-- Digital I/O
-- ADC1
-- ADC/Digital connections
-- Button 1
-- Button 2
-- DAC1
-- Light Sensor
-- Op Amp
-- Ribbon cable connectors
+**Connection:**
+- J1 — Data Collection ↔ Trigger
+- J2 — Data Collection ↔ Laser / Scanning
+- J3 — Data Collection ↔ Interpretation
 
-### Mohammed Al Rasbi
+---
 
-Mohammed's subsystem uses a **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.
+### Laser / Scanning Board
 
-The current subsystem includes:
+**Team member:** William Layja
 
-- Button 1
-- H-Bridge
-- Motor
-- ADC1
-- ADC2
-- PWM
-- Red LED
-- Microphone
-- Op Amp
-- Ribbon cable connectors
+The Laser / Scanning Board is responsible for the LiDAR scanning system. The board contains the LiDAR module, scan motor driver, and main scan motor.
 
-### Jose Baldenegro
-Jose Baldenegro's subsystem uses a **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.
+The LiDAR module provides range and scan information to the microcontroller. The scan motor driver controls the main scan motor used during scanning.
 
-The current subsystem includes:
+**Connection:**
+- J2 — Laser / Scanning ↔ Data Collection
 
-- Button 1
-- H-Bridge
-- Motor
-- ADC1
-- ADC2
-- PWM
-- Red LED
-- Microphone
-- Op Amp
-- Ribbon cable connectors
+---
 
-### Isaiah Cruz
+### Trigger Board
 
-Isaiah's subsystem uses a **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.
+**Team member:** Isaiah Cruz
 
-The current subsystem includes:
+The Trigger Board provides the user input that initiates a scan. The board contains a trigger switch connected to the microcontroller.
 
-- Button 1
-- H-Bridge
-- Motor
-- ADC1
-- ADC2
-- PWM
-- Red LED
-- Microphone
-- Op Amp
-- Ribbon cable connectors
+The trigger switch provides the digital input used for debounce and the scan request.
 
-### place holder (PH)
+**Connection:**
+- J1 — Trigger ↔ Data Collection
 
-PH's subsystem is represented as an individual board within the team block diagram. The subsystem will be updated with its microcontroller, peripherals, sensors, actuators, and communication assignments as the design is finalized.
+---
 
-## Ribbon Cable Connections
+### Interpretation Board
 
-Each board uses an 8-pin ribbon cable connector for communication with the other team members.
+**Team member:** Mohammed Al Rasbi
+
+The Interpretation Board processes the collected information and provides user feedback. The board includes audio and vibration outputs.
+
+The current design includes:
+
+- Audio amplifier
+- Speaker
+- Vibration driver
+- Small vibration motor
+- UART communication
+- Audio output / motor PWM-enable signal
+
+The board is responsible for obstacle interpretation and providing audio and vibration alerts to the user.
+
+**Connection:**
+- J3 — Interpretation ↔ Data Collection
+
+---
+
+### Power Board
+
+**Team member:** Jose Baldenegr
+
+The Power Board distributes power to the other boards and provides the required voltage rails.
+
+The power system consists of:
+
+- Battery pack
+- Protection / switch
+- Voltage regulators
+- Power distribution
+
+The Power Board provides separate power connections to the other boards:
+
+- P1 — Data Collection
+- P2 — Laser / Scanning
+- P3 — Trigger
+- P4 — Interpretation
+
+The diagram identifies the power distribution as including the required VLOGIC, VSENSOR, VMOTOR, VAUDIO, VIB, and common ground connections.
+
+## Communication Connections
+
+The team uses 8-pin ribbon cable connectors for communication between the embedded system boards.
+
+The current proposed cable pinout is:
 
 | Pin | Function |
 |---|---|
-| 1 | Team communication signal |
-| 2 | Team communication signal |
-| 3 | Team communication signal |
-| 4 | Team communication signal |
-| 5 | Team communication signal |
-| 6 | Team communication signal |
-| 7 | Team communication signal |
-| 8 | Ground |
+| 1 | Collection TX / remote RX |
+| 2 | Collection RX / remote TX |
+| 3 | NC |
+| 4 | NC |
+| 5 | NC |
+| 6 | NC |
+| 7 | NC |
+| 8 | GND |
 
-Pins 1–7 will interface with the appropriate microcontroller GPIO or peripheral pins. Pin 8 is reserved for ground.
+The diagram specifies that RX# connections are treated as GPIO placeholders until the final microcontroller pin assignments are determined.
 
-The specific pin assignments will be updated as the individual subsystem designs are finalized.
+The ribbon connections terminate at the microcontrollers. Sensors and actuators do not connect directly to the ribbon cable.
 
-## Communication Layout
+## Power Connections
 
-The team block diagram uses the hub/spoke format to organize the connections between the individual embedded system boards. The diagram identifies the boards, ribbon cable connectors, and the communication paths between the subsystems.
+The Power Board provides dedicated power connections to each subsystem.
 
-The block diagram will be updated throughout the semester as the individual subsystem designs and communication requirements are finalized.
+| Connection | Board | Power |
+|---|---|---|
+| P1 | Data Collection | VLOGIC / GND |
+| P2 | Laser / Scanning | VLOGIC / VSENSOR / VMOTOR / GND |
+| P3 | Trigger | VLOGIC / GND |
+| P4 | Interpretation | VLOGIC / VAUDIO / VIB / GND |
 
-## Block Diagram Source
+The power connections are shown as red lines in the team block diagram. The black lines represent signal or internal power-board connections.
 
-[Download the Team Block Diagram](../drawio/team-block-diagram.drawio)
+Power does not use the UART ribbon connections. All boards share ground.
 
-## Design Updates
+## System Communication Flow
 
-This block diagram is a living document and will be updated as the team's embedded system design develops. Changes to microcontrollers, sensors, actuators, GPIO assignments, peripheral connections, and ribbon cable signals will be reflected in the diagram.
+The system operates through the following general sequence:
+
+1. The user activates the trigger switch.
+2. The Trigger Board sends a scan request to the Data Collection Board.
+3. The Data Collection Board communicates with the Laser / Scanning Board.
+4. The Laser / Scanning Board collects LiDAR range and scan information.
+5. The Data Collection Board collects and buffers the scan samples.
+6. The collected information is sent to the Interpretation Board.
+7. The Interpretation Board interprets the detected obstacle information.
+8. Audio and vibration alerts provide feedback to the user.
+
+## Design Notes
+
+The current block diagram is a working design and will be updated as the individual boards are developed.
+
+Microcontroller selections, manufacturers, part numbers, GPIO assignments, peripheral details, voltage rails, current ratings, and other component specifications marked as TBD will be finalized as the individual subsystem designs progress.
+
+The team will maintain consistency between the individual block diagrams and this team-level block diagram.
+
+## Block Diagram Source File
+
+[Download the Team Block Diagram Source File](../drawio/lidar-team-block-diagram.drawio)
 
 ## References
 
