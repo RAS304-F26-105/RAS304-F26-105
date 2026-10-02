@@ -12,7 +12,7 @@ Each board is responsible for a specific part of the system while communicating 
 
 ## Team Block Diagram
 
-![Team Block Diagram](../image/lidar-team-block-diagram.drawio.webp)
+![Team Block Diagram](image/lidar-team-block-diagram.drawio.webp)
 
 **Figure 1:** Team-level block diagram for the Handheld LiDAR Accessibility Aid.
 
