@@ -166,7 +166,7 @@ The team will maintain consistency between the individual block diagrams and thi
 
 ## Block Diagram Source File
 
-[Download the Team Block Diagram Source File](../drawio/lidar-team-block-diagram.drawio)
+[Download the Team Block Diagram Source File](drawio/lidar-team-block-diagram.drawio)
 
 ## References
 
