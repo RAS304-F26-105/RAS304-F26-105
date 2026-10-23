@@ -4,9 +4,7 @@ title: Software Proposal
 
 ## Introduction
 This page will go through our **software proposal** and all the results we had with our product 
-**Bold Text**
-_Italic Text_
-**_Bold and Italic Text_**
+
 
 ## Research Question
 
