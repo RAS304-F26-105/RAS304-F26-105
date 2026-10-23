@@ -10,13 +10,14 @@ _Italic Text_
 
 ## Research Question
 
-* Bullet Point 1
-* Bullet Point 2
-* Bullet Point 3
+* How can a compact, low-cost LiDAR sensor be designed to deliver reliable real-time depth perception for robotics and automated systems while maintaining commercial-grade 
+* What hardware and software design choices most effectively reduce LiDAR production cost without sacrificing durability, accuracy, and ease of deployment?
+* How does lowering the cost barrier of advanced 3D vision affect the adoption, efficiency, and competitiveness of smart automation solutions in commercial markets?
+
 
 ## Images
 
-![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png)
+![image caption](docs/image/Team Software Proposal.drawio.png)
 
 ![dead bug circuit](Image01.jpg){style width:"350" height:"300;"}
 **Figure 2:** Early PCB working design
