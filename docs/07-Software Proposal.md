@@ -3,7 +3,7 @@ title: Software Proposal
 ---
 
 ## Introduction
-
+This page will go through our **software proposal** and all the results we had with our product 
 **Bold Text**
 _Italic Text_
 **_Bold and Italic Text_**
@@ -28,12 +28,12 @@ _Italic Text_
 
 ## Results
 
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
+1. To be determined
+1. To be determined
+1. To be determined
 
 ## Conclusions and Future Work
-
+To be determined
 ## External Links
 
 [example link to idealab](https://idealab.asu.edu)
@@ -41,12 +41,12 @@ _Italic Text_
 
 ## Results
 
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
+1. To be determined
+1. To be determined
+1. To be determined
 
 ## Conclusions and Future Work
-
+To be determined 
 ## External Links
 
 [example link to idealab](https://idealab.asu.edu)
