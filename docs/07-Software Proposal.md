@@ -17,7 +17,7 @@ _Italic Text_
 
 ## Images
 
-![image caption](docs/image/Team Software Proposal.drawio.png)
+![image caption](TeamSoftwareProposaldrawio.png)
 
 ![dead bug circuit](Image01.jpg){style width:"350" height:"300;"}
 **Figure 2:** Early PCB working design
