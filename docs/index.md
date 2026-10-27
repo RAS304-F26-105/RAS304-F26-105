@@ -26,7 +26,7 @@ Professor: Dr. Vivek Thangavelu<br>
 
 |**Team Role**      | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------| -----------------------|
-| Team Leader / Sponser  | William Layja        |[link](https://williamlayja.github.io/wlayja_RAS304_F26/) |
+| Team Leader / He does not treat us well and work us like like muels  | William Layja        |[link](https://williamlayja.github.io/wlayja_RAS304_F26/) |
 | Handyman  | Khun Nyeinn Pyayt Oo   | [link](https://wanderer-annoy.github.io/khunoo_RAS304_F26/) |
 | Intelligent Non-Organic Specialist  | Mohammed Al Rasbi      | [link](https://rasbi-m.github.io/malrasbi_RAS304_fall26/) |
 | Researcher and Graphic Designer | Jose Baldenegro        | [link](https://jabalden-max.github.io/JaBalden_RAS304_F26/) |
