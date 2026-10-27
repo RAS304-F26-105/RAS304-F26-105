@@ -7,10 +7,10 @@ tags:
 <center>
 <font size="8">Project Phoenix Phorse<br>
 <font size="5">Team 105<br>
-**Submission: 08, 31, 2026**<br>
+Submission: 08, 31, 2026<br>
 Fall 2026<br>
 <font size="4">Arizona State University<br>
-**EGR 304**<br>
+EGR 304<br>
 Professor: Dr. Vivek Thangavelu<br>
   
 
@@ -26,8 +26,8 @@ Professor: Dr. Vivek Thangavelu<br>
 
 |**Team Role**      | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------| -----------------------|
-| Team Leader  | William Layja        |[link](https://williamlayja.github.io/wlayja_RAS304_F26/) |
-| ROle  | Khun Nyeinn Pyayt Oo   | [link](https://wanderer-annoy.github.io/khunoo_RAS304_F26/) |
-| ROle  | Mohammed Al Rasbi      | [link](https://rasbi-m.github.io/malrasbi_RAS304_fall26/) |
-| ROle  | Jose Baldenegro        | [link](https://jabalden-max.github.io/JaBalden_RAS304_F26/) |
-| ROle  | Isaiah Cruz            | [link](https://ras-embedded-systems.github.io/RAS304DataSheetTemplate/) |
+| Team Leader / He does not treat us well and work us like like muels  | William Layja        |[link](https://williamlayja.github.io/wlayja_RAS304_F26/) |
+| Handyman  | Khun Nyeinn Pyayt Oo   | [link](https://wanderer-annoy.github.io/khunoo_RAS304_F26/) |
+| Intelligent Non-Organic Specialist  | Mohammed Al Rasbi      | [link](https://rasbi-m.github.io/malrasbi_RAS304_fall26/) |
+| Researcher and Graphic Designer | Jose Baldenegro        | [link](https://jabalden-max.github.io/JaBalden_RAS304_F26/) |
+| Co-Captain  | Isaiah Cruz            | [link](https://ras-embedded-systems.github.io/RAS304DataSheetTemplate/) |
