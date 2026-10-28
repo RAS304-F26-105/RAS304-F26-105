@@ -13,7 +13,8 @@ Fall 2026<br>
 EGR 304<br>
 Professor: Dr. Vivek Thangavelu<br>
   
-![Team_logo.png](Team_logo.png)
+![Team_logo](image/Team_logo.png)
+
 </center>
 
 ## Team Introduction
