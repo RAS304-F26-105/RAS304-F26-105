@@ -5,7 +5,6 @@ tags:
 - tag2
 ---
 <center>
-<img src="image/Team_logo.png" alt="Team Logo" width="300">
 <font size="8">Project Phoenix Phorse<br>
 <font size="5">Team 105<br>
 Submission: 10/29/2026<br>
@@ -13,8 +12,10 @@ Fall 2026<br>
 <font size="4">Arizona State University<br>
 EGR 304<br>
 Professor: Dr. Vivek Thangavelu<br>
+  
+<img src="image/Team_logo.png" alt="Team Logo" width="300">
 
-<center>
+</center>
 
 ## Team Introduction
 
