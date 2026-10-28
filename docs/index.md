@@ -17,7 +17,6 @@ Professor: Dr. Vivek Thangavelu<br>
 </center>
 
 ## Team Introduction
-### Project Overview
 
 Project Phoenix Phorse is focused on the development of a portable, rechargeable LiDAR (Light Detection and Ranging) system designed to enhance object detection and environmental awareness in robotic applications. The system utilizes a laser-based distance sensor mounted on a rotating mechanism to provide 360-degree scanning capabilities, allowing it to measure distances and detect surrounding obstacles with precision. An integrated buzzer or speaker provides audible alerts when objects are detected within a specified distance, helping users recognize nearby obstacles. The device is designed to be compact, energy-efficient, and adaptable, allowing robotics companies to incorporate the technology into their existing robotic platforms. Through this project, our team aims to develop a reliable and accessible sensing solution that improves obstacle detection, navigation, and overall operational safety in robotic systems.
 
