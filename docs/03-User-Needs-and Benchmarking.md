@@ -2,74 +2,164 @@
 title: User Needs and Benchmarking
 ---
 
-## Voice of the Customer Benchmarking Example
+# Voice of the Customer Benchmarking
 
-### Search #1
+<!--
+How to use this template
+1. Duplicate the "Search #" block below for each keyword search you run.
+2. Duplicate the "Selected Product" sub-block for each product you pull from that search.
+3. Pull 2–3 positive and 2–3 negative verbatim customer quotes per product, then restate each as a clear, actionable customer need.
+4. Once all searches are done, move the best need statements into the Organized Need Statements section, then into the final Compiled List of User Needs.
+-->
 
-**Keywords:** "kid science kit robotics"
+---
 
-**Search Results Link:** [https://www.amazon.com/s?k=kid+science+kit+robotics&crid=201H95H867ASY&sprefix=kid+science+kit+robotic%2Caps%2C162&ref=nb_sb_noss_2](https://www.amazon.com/s?k=kid+science+kit+robotics&crid=201H95H867ASY&sprefix=kid+science+kit+robotic%2Caps%2C162&ref=nb_sb_noss_2)
+## Search #1
+
+**Keywords:** "lidar"
+
+**Search Results Link:** https://www.amazon.com/s?k=lidar
 
 ### Selected Products
 
-#### 1. [Tinkering Labs Robotics Engineering Kit](https://www.amazon.com/Tinkering-Labs-Electric-Engineering-Experiments/dp/B01M5GJFQ1/) < (link to the product)
+#### 1. Intel RealSense LiDAR Camera L515
 
-![](image1.png)
+**Product Link:** https://www.amazon.com/Intel-RealSense-LiDAR-Camera-L515/dp/B0855LWPLN
+**Spec Sheet:** https://www.intel.com/content/www/us/en/products/sku/201775/intel-realsense-lidar-camera-l515/specifications.html
 
-**(include a picture)**
+![Intel RealSense LiDAR Camera L515](image/Intel_RealSense_LiDAR.jpg)
 
-* Price: $65
-
-* Vendor: Amazon
-
-* Description: The kit includes over 50 high quality components and 10 Challenges that inspire kids to invent their own creations. The pieces are a combination of the everyday and the mysterious, perfect for generating creativity, boosting IQ and instilling STEM knowledge.
+* **Price:** $479.99
+* **Vendor:** Amazon
+* **Description:** The L515 is a solid-state LiDAR depth camera that uses proprietary MEMS mirror-scanning technology, delivering better laser power efficiency than other time-of-flight approaches. At under 3.5W for depth streaming, Intel markets it as the most power-efficient high-resolution LiDAR camera available.
 
 ##### Positive Comments
 
-| Voice of the Customer                                                                                                                                                                  | Restated Customer Need                                                              |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| "My son just turned 6 and he loves this due to the real tools, real wiring and building to truly make something. It is too advanced for his age to do alone but he will grow into it." | 1.  The kit is perceived as more than a toy (explicit)                              |
-|                                                                                                                                                                                        | 2.  The kit can be used by younger children without parental supervision (explicit) |
-|                                                                                                                                                                                        | 3.  The kit is safe for children of all ages (latent)                               |
+| Voice of the Customer | Restated Customer Need |
+|---|---|
+| "It is possible to install the camera on an Autel Evo 2 drone... complete software must be purchased to process the images, how much does it cost thanks" | The buyer needs to know total system cost, including third-party photogrammetry software (e.g., WebODM at no cost, up to ~$3,500 for a permanent license such as Autel Mapper or Pix4D), not just the camera price. |
+| "Intel closes the 3D depth camera 'RealSense' business... but the product itself inside was beautiful and the protective sheet was also attached cleanly... it works without problems." | Even after the product line was discontinued, the buyer wanted assurance that a purchased unit would arrive in genuinely new, fully functional condition. |
 
 ##### Negative Comments
 
-| Voice of the Customer                                                                                                                                                                                                                                                                                                                                                                                | Restated Customer Need                                  |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| "I am a STEM teacher and bought a large quantity of these kits and I am disgusted by how easily the motor breaks. 12 years in STEM schools and this product is at the bottom of my list. The ladybug platform, as we call it, needs some reimagining and the materials simply can't handle the wear and tear of a classroom. Sad that I spend my own money on this with so little we got out of it." | 1.  The kit is robust. (explicit)                       |
-|                                                                                                                                                                                                                                                                                                                                                                                                      | 2.  The moving parts of the kit are reinforced.(latent) |
-|                                                                                                                                                                                                                                                                                                                                                                                                      | 3.  The kit survives multiple uses (explicit)           |
+| Voice of the Customer | Restated Customer Need |
+|---|---|
+| "Ordered a brand new product. Received a recycled, used product." | The buyer needs the item received to match the "new" condition ordered, with a clear path to replacement or refund when it doesn't. |
+| "I have tried this sensor on 3 different PCs running Windows 10 and 11, and on a MBP running OSX... the sensor will connect, but only as USB 2.1... On OSX, it crashes their own software (RealSense-Viewer)... Intel has not been able to fix it reliably other than by YOLOing an RMA." | The buyer needs reliable USB 3-speed connectivity and stable vendor software across Windows and macOS, without relying on RMA as the only fix. |
+| "While they mention it is not for outdoor use, the product doesn't work indoors too - even with the slightest amount of sunlight... filament based yellow lights also cause the product to malfunction." | The buyer needs the sensor to function reliably in normal indoor lighting, including sunlight through windows and warm/yellow artificial light, not just in controlled dark conditions. |
 
-#### 2. Next Product goes here
+---
 
-### Search #2
+## Search #2
 
-(you don't have to perform multiple searches, but sometimes different keywords reveal slightly different results)
+**Keywords:** "lidar"
 
-**Keywords:** <list an alternative search you did, if applicable>
-
-**Search Results Link:** <add your link here>
+**Search Results Link:** https://www.amazon.com/DJI-Focus-Pro-LiDAR-Compatibility/dp/B0CV77J537
 
 ### Selected Products
 
-#### 3. Next Product goes here
+#### 1. DJI Focus Pro LiDAR
 
-#### 4. Next Product goes here
+**Product Link:** https://www.amazon.com/DJI-Focus-Pro-LiDAR-Compatibility/dp/B0CV77J537
 
-#### 5. Next Product goes here
+![DJI Focus Pro LiDAR](image/DJI_Focus_Pro_LiDAR.jpg)
 
+* **Price:** $699.00
+* **Vendor:** Amazon
+* **Description:** This high-performance LiDAR system enhances autofocus capabilities up to 20 meters with a 30 Hz refresh rate, 70° FOV, and 76,800 ranging points, enabling faster subject tracking and autofocus for manual lenses.
+
+##### Positive Comments
+
+| Voice of the Customer | Restated Customer Need |
+|---|---|
+| "Bought one after seeing Justin Potter's videos with the Red Komodo... buyers should know it only works with the RS4 Pro. Once configured the right way, it competently performs the work of a focus puller. The tracking function is very good but not perfect, as it's able to discern between human subjects, but struggles with objects... Absolutely chews up the battery, especially with auto tracking." | The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-focus cameras, while accepting a battery-life tradeoff for a smoother gimbal workflow. |
+| "DJI great product unfortunately not good support if that's what you need" | The buyer appreciates DJI's hardware quality but needs customer support that matches that standard. |
+
+##### Negative Comments
+
+| Voice of the Customer | Restated Customer Need |
+|---|---|
+| "What virtually all reviews on Youtube conceal: ActiveTrack... only works with the Lidar Pro on people's faces and heads - the sensor does not recognize anything else... Lidar and RavenEye DO NOT work together and cannot be connected to the gimbal together... only when you spend another 2300 euros on DJI Transmission can you also select the track range of the lidar on a larger monitor." | The buyer needs a LiDAR tracking system that reliably supports non-human subjects, integrates with image-transmission tools, and offers accessible on-set screen controls without requiring costly add-on equipment. |
+| "With the 14mm lens, subject tracking is quite OK - but the often-discussed focusing on the object even before it gets into the camera's image section doesn't work at 14mm, as the lidar calculates 35mm... Using the lidar with focal lengths longer than 50mm is hardly recommended anymore - unless you have forever time on set to turn the settings over and over again until it fits." | The buyer needs a LiDAR focusing system that maintains reliable, customizable tracking across a range of focal lengths and fast subject movement, without constant on-set recalibration. |
+
+
+---
+
+## Search #3
+
+**Keywords:** *(Lidar Scanner)*
+
+**Search Results Link:** *([https://a.co/d/02QBjiR3](https://a.co/d/01B1na20))*
+
+### Selected Products
+
+#### 1. *(WayPonDEV FHL-LD19)*
+
+**Product Link:** *([https://a.co/d/02QBjiR3](https://a.co/d/01B1na20))*
+
+![WayPonDEV FHL-LD19](image/LIDar_WayDon_DD.jpg) 
+
+* **Price:** *($79.00)*
+* **Vendor:** *(Amazon)*
+* **Description:** *(The WayPonDEV FHL‑LD19 is a compact 360° 2D LiDAR sensor featuring high‑speed DTOF sampling (8000 Hz) and up to 12 m range for accurate, real‑time environmental scanning. It offers configurable 5–13 Hz rotation, plug‑and‑play USB/serial connectivity, and ROS integration for robot navigation, obstacle avoidance, SLAM, and general mapping applications.)*
+
+##### Positive Comments
+
+| Voice of the Customer | Restated Customer Need |
+|---|---|
+| "I love the size of this FHL-LD19 lidar. This would be an awesome little lidar package if it worked out of the box with ROS2 SLAM package. It's small, has a decent scan rate and has decent distance. I'll have to dig deeper into the issues with SLAM and see if anyone has been able to modify the firmware. Overall, it's a neat little lidar package, unfortunately it just isn't usable with ROS2 for a robot as is." | The customer would liked that the product would have  ROS2 SLAM support. |
+| "Software was a bit hard to find but onces I found it it works as advertised and is the cheapest I been able to find." | The customer was satisfied with it's price but the the software is hard to use  |
+| "Small, light and very useful when integrating it into robotics" | The customer was pleased with the size of the product |
+
+##### Negative Comments
+
+| Voice of the Customer | Restated Customer Need |
+|---|---|
+| "It doesn't work with the included USB cable. I'm using one of my own data cables, and now the lidar is working perfectly with Rpi 5." | The cable provide wasn't working and was defective and needed a working cable to use the product |
+| "The LD19 driver apparently calculates the number of readings in a scan in a non-conformal way and is out of spec with what the ROS2 SLAM Toolbox expects. The maintainer of SLAM toolbox has asked maintainers of LIDAR drivers to fix the calculation on their end, this is manufacturer won't respond." | Costumer ran into a bug and tried to get help from manufacturer and they didn't respond |
+
+---
 
 ## Organized Need Statements
 
 ### First Placement
+* The buyer needs a high-resolution solid-state depth camera that minimizes power consumption below 3.5W for energy-efficient operation.
+* The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting.
+* The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-lens gimbals.
+* The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.
+* The buyer needs a compact and lightweight LiDAR module suitable for seamless integration into small robotic platforms.
+* The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches.
 
-### Grouped with categories
+## Organized Need Statements
+
+### First Placement
+* The buyer needs a high-resolution solid-state depth camera that minimizes power consumption below 3.5W for energy-efficient operation.
+* The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting.
+* The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-lens gimbals.
+* The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.
+* The buyer needs a compact and lightweight LiDAR module suitable for seamless integration into small robotic platforms.
+* The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requsiring custom source patches.
+
+### Grouped with Categories
+| Category | Need Statements |
+|---|---|
+| Reliability | * The buyer needs the sensor to function reliably in normal indoor lighting without malfunctioning due to ambient sunlight or specific indoor artificial lighting.<br>* The buyer needs an active tracking LiDAR system with optimized power consumption to prevent rapid battery depletion.<br>* The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches. |
+| Cost / Value | * Engineering budget of $300* |
+| Compatibility | * The buyer needs a setup-compatible automated focus system that reliably tracks human subjects on manual-lens gimbals.<br>* The buyer needs driver software that complies directly with standard ROS2 navigation and SLAM package protocols without requiring custom source patches. |
+| Ease of Use | * The buyer needs a compact and lightweight LiDAR module suitable for seamless integration into small robotic platforms. |
+| Durability | * The buyer needs a high-resolution solid-state depth camera that minimizes power consumption below 3.5W for energy-efficient operation. |
+
 
 ### Ranked
+| Rank | Need Statement | Category | Frequency | Severity |
+|---|---|---|---|---|
+| 1 | *The device will operate reliably with standard robotic operating systems without requiring custom driver modifications.* | *Compatibility* | *3* | *High* |
+| 2 | *The device can filter out ambient interference from sunlight and standard indoor artificial light sources.* | *Reliability* | *2* | *High* |
 
-## Compiled list of user Needs
+---
 
-1. The device will...
-1. The device is ...
-1. The device can ...
-100. The device is...
+## Compiled List of User Needs
+
+1. The device will **operate reliably with standard robotic operating systems without requiring custom driver modifications.**
+2. The device is **compact and lightweight to fit easily onto resource-constrained mobile robots.**
+3. The device can **filter out ambient interference from sunlight and standard indoor artificial light sources.**
