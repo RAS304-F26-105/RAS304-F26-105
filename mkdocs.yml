@@ -8,7 +8,11 @@ theme:
   palette:
     scheme: slate
     primary: blue
-    accent: black
+<<<<<<< HEAD
+    accent: Blue Grey
+=======
+    accent: Blue Grey
+>>>>>>> efb09f29acd9637f43f64cb8698133080d4482c6
   font:
     text: Roboto
   logo: static/logo304.svg
